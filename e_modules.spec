@@ -18,7 +18,7 @@ BuildRequires:	eet-devel >= 0.9.10.038, %{mklibname e0}-devel >= 0.16.999.038, %
 BuildRequires:  edje >= 0.5.0.038, etk-devel >= 0.1.0.003
 BuildRequires:  embryo >= 0.9.1.038
 requires:	e >= 0.16.999.038
-Buildrequires:	gettext-devel, cvs
+Buildrequires:	gettext-devel, cvs, %{mklibname exml1} >= 0.1.1
 
 %description
 e_modules - a collection of modules for enlightenment
@@ -40,13 +40,21 @@ This package is part of the Enlightenment DR17 desktop shell.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall_std
+%makeinstall
+
+# %lang(fr) /usr/share/locale/fr/LC_MESSAGES/ephoto.mo
+%find_lang %{name}
+for mo in `ls %buildroot%_datadir/locale/` ;
+do Y=`echo -n $mo | sed -e "s|/||"`;
+echo "%lang($Y) $(echo %_datadir/locale/${mo}/LC_MESSAGES/%{name}.mo)" >> $RPM_BUILD_DIR/%{name}-%{version}/%{name}.lang
+done
+
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(-,root,root)
 %doc AUTHORS COPYING NEWS README
-%{_libdir}/%{name}
-%{_libdir}/enlightenment/modules_extra/*
+%{_bindir}/emu_client
+%{_libdir}/enlightenment/modules/*
