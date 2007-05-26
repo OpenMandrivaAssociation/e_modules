@@ -40,13 +40,16 @@ This package is part of the Enlightenment DR17 desktop shell.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 # %lang(fr) /usr/share/locale/fr/LC_MESSAGES/ephoto.mo
 %find_lang %{name}
-for mo in `ls %buildroot%_datadir/locale/` ;
-do Y=`echo -n $mo | sed -e "s|/||"`;
-echo "%lang($Y) $(echo %_datadir/locale/${mo}/LC_MESSAGES/%{name}.mo)" >> $RPM_BUILD_DIR/%{name}-%{version}/%{name}.lang
+cd $RPM_BUILD_ROOT/%_datadir/locale/
+LIST=`find . -name \*.mo -exec echo {} \;| cut -d '.' -f 2`
+for mo in `$LIST`;
+do
+LG=`echo $mo | cut -d '/' -f 2`
+echo "%lang($LG) $(echo %_datadir/locale/$mo)" >> $RPM_BUILD_DIR/%{name}-%{version}/%{name}.lang
 done
 
 
@@ -57,4 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc AUTHORS COPYING NEWS README
 %{_bindir}/emu_client
+%_datadir/locale/*
 %{_libdir}/enlightenment/modules/*
