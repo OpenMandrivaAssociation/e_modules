@@ -19,6 +19,7 @@ BuildRequires:  edje >= 0.5.0.038, etk-devel >= 0.1.0.003
 BuildRequires:  embryo >= 0.9.1.038
 requires:	e >= 0.16.999.038
 Buildrequires:	gettext-devel, cvs, %{mklibname exml1} >= 0.1.1
+Buildrequires:  %{mklibname xkbfile1}-devel
 
 %description
 e_modules - a collection of modules for enlightenment
