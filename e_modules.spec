@@ -21,6 +21,7 @@ requires:	e >= 0.16.999.038
 Buildrequires:	gettext-devel, cvs, %{mklibname exml1} >= 0.1.1
 Buildrequires:  %{mklibname xkbfile1}-devel
 Buildrequires:	ImageMagick, efreet-devel
+Buildrequires:  %{mklibname xcomposite1}-devel
 
 %description
 e_modules - a collection of modules for enlightenment
