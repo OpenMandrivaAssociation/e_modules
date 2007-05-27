@@ -61,7 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(-,root,root)
-%doc AUTHORS COPYING NEWS README
+%doc AUTHORS README
 %{_bindir}/emu_client
 %_datadir/locale/*
 %{_libdir}/enlightenment/modules/*
