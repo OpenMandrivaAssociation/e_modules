@@ -14,7 +14,7 @@ Source: 	%{name}-%{version}.tar.bz2
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	evas-devel >= 0.9.9.038, esmart-devel >= 0.9.0.008
 BuildRequires:	ecore-devel >= 0.9.9.038, edje-devel >= 0.5.0.038
-BuildRequires:	eet-devel >= 0.9.10.038, %{mklibname e0}-devel >= 0.16.999.038, %{mklibname exml1}-devel >= 0.1.1
+BuildRequires:	eet-devel >= 0.9.10.038, e-devel >= 0.16.999.038, exml-devel >= 0.1.1
 BuildRequires:  edje >= 0.5.0.038, etk-devel >= 0.1.0.003
 BuildRequires:  embryo >= 0.9.1.038
 requires:	e >= 0.16.999.038
