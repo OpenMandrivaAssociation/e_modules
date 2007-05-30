@@ -1,9 +1,9 @@
 %define	name e_modules
 %define	version 0.0.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 
-Summary: 	Enlightenment modules
+Summary: 	E_modules is a loose collection of third party E17 modules
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
@@ -24,14 +24,38 @@ Buildrequires:	ImageMagick, efreet-devel
 Buildrequires:  %{mklibname xcomposite1}-devel
 
 %description
-e_modules - a collection of modules for enlightenment
+e_modules is a loose collection of third party E17 modules written by
+various authors.  They are not officially a part of E17, but they are
+allowed to use the E cvs repository.  The modules are all separate
+modules, written by separate authors.
 
-Snow module for the Enlightenment window manager.
-Flame module for the Enlightenment window manager.
-Weather module for the Enlightenment window manager.
-Monitor module for the Enlightenment window manager.
-
-This package is part of the Enlightenment DR17 desktop shell.
+alarm - Sets reminders and timer.  (Replaces eveil.)
+bling - EFLized Composite Manager for E17. (Not for users right now).
+calendar - A module to display a desktop calendar.
+cpu - A module to monitor cpu load.  (Will be replaced by something better.)
+deskshow - A module to iconify/uniconify all current windows to show the
+emu - Experimental generic scriptable module for E17.
+engage - Icon bar / task bar / system tray.
+flame - A module to display flames on the desktop.
+forecasts - A module to display  the current condition and forecasts.
+language - A module to control active keyboard/keyboard layout/layout variant.
+mail - A module to periodically check for new email.
+mem - A module to monitor memory and swap usage.  (Will be replaced by something better.)
+mixer - A module to control volume for some mixers.  (Will be replaced by something better.)
+moon - A module to display moon phase information.
+net - A module to monitor traffic on a network device.
+news - A module to display rss feeds.
+photo - A module to display pictures on the desktop.
+rain - A module to display rain on the desktop.
+screenshot - A module to take screenshots, utilizing scrot or import.
+slideshow - A module to cycle desktop backgrounds.
+snow - A module to display snow on the desktop.
+taskbar - A taskbar module.  (Will be replaced by something better.)
+tclock - A module to display a digital clock on the desktop.  (Will be replaced by something better.)
+uptime - A module to monitor computer uptime.
+weather - A module to display a weather forecast.
+winselector - A module to show menu-based access to open windows.
+wlan - A module to monitor a wlan device.
 
 %prep
 %setup -q
