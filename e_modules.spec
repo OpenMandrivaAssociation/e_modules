@@ -18,7 +18,7 @@ BuildRequires:	eet-devel >= 0.9.10.038, e-devel >= 0.16.999.038, exml-devel >= 0
 BuildRequires:  edje >= 0.5.0.038, etk-devel >= 0.1.0.003
 BuildRequires:  embryo >= 0.9.1.038
 requires:	e >= 0.16.999.038
-Buildrequires:	gettext-devel, cvs, %{mklibname exml1} >= 0.1.1
+Buildrequires:	gettext-devel, cvs, exml >= 0.1.1
 Buildrequires:  %{mklibname xkbfile1}-devel
 Buildrequires:	ImageMagick, efreet-devel
 Buildrequires:  %{mklibname xcomposite1}-devel
