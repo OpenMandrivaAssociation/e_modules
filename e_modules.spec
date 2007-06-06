@@ -1,6 +1,6 @@
 %define	name e_modules
 %define	version 0.0.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 
 Summary: 	E_modules is a loose collection of third party E17 modules
