@@ -1,6 +1,6 @@
 %define	name e_modules
 %define	version 0.1.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 
 Summary: 	E_modules is a loose collection of third party E17 modules
@@ -12,10 +12,10 @@ Group: 		Graphical desktop/Enlightenment
 URL: 		http://get-e.org/
 Source: 	%{name}-%{version}.tar.bz2
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
-BuildRequires:	evas-devel >= 0.9.9.041, esmart-devel >= 0.9.0.008
-BuildRequires:	ecore-devel >= 0.9.9.041, edje-devel >= 0.5.0.038
-BuildRequires:	eet-devel >= 0.9.10.041, e-devel >= 0.16.999.038, exml-devel >= 0.1.1
-BuildRequires:  edje >= 0.5.0.038, etk-devel >= 0.1.0.003
+BuildRequires:	evas-devel >= 0.9.9.041, esmart-devel >= 0.9.0.011
+BuildRequires:	ecore-devel >= 0.9.9.041, edje-devel >= 0.5.0.041
+BuildRequires:	eet-devel >= 0.9.10.041, e-devel >= 0.16.999.041, exml-devel >= 0.1.1
+BuildRequires:  edje >= 0.5.0.041, etk-devel >= 0.1.0.007
 BuildRequires:  embryo >= 0.9.1.041
 requires:	e >= 0.16.999.041
 Buildrequires:	gettext-devel, cvs, exml >= 0.1.1
