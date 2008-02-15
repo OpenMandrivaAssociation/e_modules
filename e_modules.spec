@@ -1,6 +1,6 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	cvs	20080202
+%define	cvs	20080215
 %define release %mkrel 0.%{cvs}.1
 
 Summary: 	E_modules is a loose collection of third party E17 modules
@@ -14,23 +14,23 @@ URL: 		http://get-e.org/
 Source: 	%{name}-%{cvs}.tar.bz2
 Patch0:		notification-fix-datadir.patch
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
-BuildRequires:	evas-devel
-BuildRequires:	esmart-devel
-BuildRequires:	ecore-devel
-BuildRequires:	edje-devel, edje
-BuildRequires:	efreet-devel
-BuildRequires:	e-devel
-BuildRequires:	exml-devel, exml
-BuildRequires:  etk-devel
-BuildRequires:  embryo-devel, embryo
-BuildRequires:	e_dbus-devel
+BuildRequires:	evas-devel >= 0.9.9.042
+BuildRequires:	esmart-devel >= 0.9.0.042
+BuildRequires:	ecore-devel >= 0.9.9.042
+BuildRequires:	edje-devel >= 0.5.0.042, edje >= 0.5.0.042
+BuildRequires:	efreet-devel >= 0.0.3.042
+BuildRequires:	e-devel >= 0.16.999.042
+BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1 
+BuildRequires:  etk-devel >= 0.9.10.042
+BuildRequires:  embryo-devel >= 0.9.1.042, embryo >= 0.9.1.042
+BuildRequires:	e_dbus-devel >= 0.1.0.042
 BuildRequires:	emprint
 Buildrequires:	gettext-devel
 Buildrequires:  libxkbfile-devel
 Buildrequires:	ImageMagick
 Buildrequires:  libxcomposite-devel
 BuildRequires:	libmpd-devel
-Requires:	e
+Requires:	e >= 0.16.999.042
 Requires:	emprint
 
 %description
