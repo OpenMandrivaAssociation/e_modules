@@ -3,7 +3,7 @@
 %define	cvs	20080215
 %define release %mkrel 0.%{cvs}.1
 
-Summary: 	E_modules is a loose collection of third party E17 modules
+Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
