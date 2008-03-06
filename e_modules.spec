@@ -21,7 +21,7 @@ BuildRequires:	edje-devel >= 0.5.0.042, edje >= 0.5.0.042
 BuildRequires:	efreet-devel >= 0.0.3.042
 BuildRequires:	e-devel >= 0.16.999.042
 BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1 
-BuildRequires:  etk-devel >= 0.9.10.042
+BuildRequires:  etk-devel >= 0.1.0.042
 BuildRequires:  embryo-devel >= 0.9.1.042, embryo >= 0.9.1.042
 BuildRequires:	e_dbus-devel >= 0.1.0.042
 BuildRequires:	emprint
