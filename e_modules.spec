@@ -1,6 +1,6 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	cvs	20080218
+%define	cvs	20080306
 %define release %mkrel 0.%{cvs}.1
 
 Summary: 	Loose collection of third party E17 modules
