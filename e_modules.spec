@@ -40,7 +40,7 @@ allowed to use the E cvs repository.  The modules are all separate
 modules, written by separate authors.
 
 %prep
-%setup -q
+%setup -q -n %name-%cvs
 pushd notification
 %patch0
 popd
