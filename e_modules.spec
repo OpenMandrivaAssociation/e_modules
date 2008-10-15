@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
 %define	cvs	20080306
-%define release %mkrel 0.%{cvs}.2
+%define release %mkrel 0.%{cvs}.3
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
@@ -30,7 +30,8 @@ Buildrequires:  libxkbfile-devel
 Buildrequires:	ImageMagick
 Buildrequires:  libxcomposite-devel
 BuildRequires:	libmpd-devel
-Requires:	e >= 0.16.999.042
+Conflicts:	e < 0.16.999.050-3
+Requires:	e >= 0.16.999.050-3
 Requires:	emprint
 
 %description
