@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
 %define	cvs	20080306
-%define release %mkrel 0.%{cvs}.1
+%define release %mkrel 0.%{cvs}.2
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
@@ -57,13 +57,8 @@ rm -rf $RPM_BUILD_ROOT
 # %lang(fr) /usr/share/locale/fr/LC_MESSAGES/ephoto.mo
 %find_lang %{name}
 
-#cd $RPM_BUILD_ROOT/%_datadir/locale/
-#LIST=`find . -name \*.mo -exec echo {} \;| cut -d '.' -f 2`
-#for mo in `$LIST`;
-#do
-#LG=`echo $mo | cut -d '/' -f 2`
-#echo "%lang($LG) $(echo %_datadir/locale/$mo)" >> $RPM_BUILD_DIR/%{name}-%{version}/%{name}.lang
-#done
+# provided by e >= 0.16.999.050
+rm -fr %buildroot%{_libdir}/enlightenment/modules/mixer
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -71,6 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 %files -f %{name}.lang
 %defattr(-,root,root)
 %doc AUTHORS README
-#%{_bindir}/emu_client
-#%_datadir/locale/*
 %{_libdir}/enlightenment/modules/*
