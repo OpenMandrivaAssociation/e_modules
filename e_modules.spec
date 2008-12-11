@@ -27,7 +27,7 @@ BuildRequires:	e_dbus-devel >= 0.1.0.042
 BuildRequires:	emprint
 Buildrequires:	gettext-devel
 Buildrequires:  libxkbfile-devel
-Buildrequires:	ImageMagick
+Buildrequires:	imagemagick
 Buildrequires:  libxcomposite-devel
 BuildRequires:	libmpd-devel
 Conflicts:	e < 0.16.999.050-3
