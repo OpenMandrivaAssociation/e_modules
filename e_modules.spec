@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	cvs	20080306
-%define release %mkrel 0.%{cvs}.3
+%define	cvs	20090227
+%define release %mkrel 0.%{svn}.1
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
@@ -14,15 +14,15 @@ URL: 		http://get-e.org/
 Source: 	%{name}-%{cvs}.tar.bz2
 Patch0:		notification-fix-datadir.patch
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
-BuildRequires:	evas-devel >= 0.9.9.042
-BuildRequires:	esmart-devel >= 0.9.0.042
-BuildRequires:	ecore-devel >= 0.9.9.042
-BuildRequires:	edje-devel >= 0.5.0.042, edje >= 0.5.0.042
-BuildRequires:	efreet-devel >= 0.0.3.042
-BuildRequires:	e-devel >= 0.16.999.042
-BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1 
+BuildRequires:	evas-devel >= 0.9.9.050
+BuildRequires:	esmart-devel >= 0.9.0.050
+BuildRequires:	ecore-devel >= 0.9.9.050
+BuildRequires:	edje-devel >= 0.5.0.050, edje >= 0.5.0.050
+BuildRequires:	efreet-devel >= 0.5.0.050
+BuildRequires:	e-devel >= 0.16.999.050
+BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1
 BuildRequires:  etk-devel >= 0.1.0.042
-BuildRequires:  embryo-devel >= 0.9.1.042, embryo >= 0.9.1.042
+BuildRequires:  embryo-devel >= 0.9.9.050, embryo >= 0.9.9.050
 BuildRequires:	e_dbus-devel >= 0.1.0.042
 BuildRequires:	emprint
 Buildrequires:	gettext-devel
