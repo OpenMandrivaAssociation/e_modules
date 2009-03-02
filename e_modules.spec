@@ -43,9 +43,9 @@ modules, written by separate authors.
 
 %prep
 %setup -q -n %name-%version-%svn
-pushd notification
-%patch0
-popd
+#pushd notification
+#%patch0
+#popd
 
 %build
 ./autogen.sh
