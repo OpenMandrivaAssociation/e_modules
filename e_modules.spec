@@ -1,6 +1,6 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	cvs	20090227
+%define	svn	20090227
 %define release %mkrel 0.%{svn}.1
 
 Summary: 	Loose collection of third party E17 modules
@@ -11,7 +11,7 @@ Epoch:		1
 License: 	BSD
 Group: 		Graphical desktop/Enlightenment
 URL: 		http://get-e.org/
-Source: 	%{name}-%{cvs}.tar.bz2
+Source: 	%{name}-%version-%{svn}.tar.bz2
 Patch0:		notification-fix-datadir.patch
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	evas-devel >= 0.9.9.050
@@ -41,7 +41,7 @@ allowed to use the E cvs repository.  The modules are all separate
 modules, written by separate authors.
 
 %prep
-%setup -q -n %name-%cvs
+%setup -q -n %name-%version-%svn
 pushd notification
 %patch0
 popd
