@@ -17,13 +17,13 @@ BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	evas-devel >= 0.9.9.050
 BuildRequires:	esmart-devel >= 0.9.0.050
 BuildRequires:	ecore-devel >= 0.9.9.050
-BuildRequires:	edje-devel >= 0.5.0.050, edje >= 0.5.0.050
+BuildRequires:	edje-devel >= 0.9.9.050, edje >= 0.9.9.0.050
 BuildRequires:	efreet-devel >= 0.5.0.050
 BuildRequires:	e-devel >= 0.16.999.050
 BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1
 BuildRequires:  etk-devel >= 0.1.0.042
 BuildRequires:  embryo-devel >= 0.9.9.050, embryo >= 0.9.9.050
-BuildRequires:	e_dbus-devel >= 0.1.0.042
+BuildRequires:	e_dbus-devel >= 0.5.0.050
 BuildRequires:	emprint
 Buildrequires:	gettext-devel
 Buildrequires:  libxkbfile-devel
