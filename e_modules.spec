@@ -24,7 +24,7 @@ BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1
 BuildRequires:  etk-devel >= 0.1.0.042
 BuildRequires:  embryo-devel >= 0.9.9.050, embryo >= 0.9.9.050
 BuildRequires:	e_dbus-devel >= 0.5.0.050
-Buildrequires:	libexalt-devel >= 0.6
+Buildrequires:	exalt-devel >= 0.6
 buildrequires:	elementary-devel >= 0.1.0.0
 BuildRequires:	emprint
 Buildrequires:	gettext-devel
