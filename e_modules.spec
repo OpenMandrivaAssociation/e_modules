@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
 %define	svn	20090227
-%define release %mkrel 0.%{svn}.1
+%define release %mkrel 0.%{svn}.2
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
