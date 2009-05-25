@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	svn	20090227
-%define release %mkrel 0.%{svn}.2
+%define	svn	20090525
+%define release %mkrel 0.%{svn}.1
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
@@ -43,23 +43,42 @@ allowed to use the E cvs repository.  The modules are all separate
 modules, written by separate authors.
 
 %prep
-%setup -q -n %name-%version-%svn
+%setup -q -n %name
 %patch1 -p1
 
+# exalt-clinet does not build as of 20090525
+rm -fr exalt-client notification
+
 %build
-./autogen.sh
-%configure2_5x
-%make
+rm -fr debian
+
+for i in `find * -type d|awk -F'/' '{print $1}'|sort|uniq`
+do
+(
+	pushd $i
+	NOCONFIGURE=yes ./autogen.sh
+	%define Werror_cflags %nil
+	%configure2_5x
+	%make
+	popd
+)
+done
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall_std
+for i in `find * -type d|awk -F'/' '{print $1}'|sort|uniq`
+do 
+	%makeinstall_std -C $i
+done
 
 # %lang(fr) /usr/share/locale/fr/LC_MESSAGES/ephoto.mo
-%find_lang %{name}
+%find_lang %{name} --all-name
 
 # provided by e >= 0.16.999.050
 rm -fr %buildroot%{_libdir}/enlightenment/modules/mixer
+
+# do not provide devel stuffs
+rm -fr %buildroot%_includedir/drawer %buildroot%_libdir/pkgconfig
 
 %clean
 rm -rf $RPM_BUILD_ROOT
