@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	svn	20090525
-%define release %mkrel 0.%{svn}.2
+%define	svn	20090808
+%define release %mkrel 0.%{svn}.1
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
@@ -24,8 +24,9 @@ BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1
 BuildRequires:  etk-devel >= 0.1.0.042
 BuildRequires:  embryo-devel >= 0.9.9.050, embryo >= 0.9.9.050
 BuildRequires:	e_dbus-devel >= 0.5.0.050
-Buildrequires:	exalt-devel >= 0.6
-buildrequires:	elementary-devel >= 0.1.0.0
+BuildRequires:	exalt-devel >= 0.6
+BuildRequires:	elementary-devel >= 0.1.0.0
+BuildRequires:	ethumb-devel
 BuildRequires:	emprint
 Buildrequires:	gettext-devel
 Buildrequires:  libxkbfile-devel
@@ -44,22 +45,18 @@ modules, written by separate authors.
 
 %prep
 %setup -q -n %name
-%patch1 -p1
-
-# exalt-clinet does not build as of 20090525
-rm -fr exalt-client notification
 
 %build
 rm -fr debian
+%define Werror_cflags %nil
 
 for i in `find * -type d|awk -F'/' '{print $1}'|sort|uniq`
 do
 (
 	pushd $i
 	NOCONFIGURE=yes ./autogen.sh
-	%define Werror_cflags %nil
 	%configure2_5x
-	%make
+	make
 	popd
 )
 done
