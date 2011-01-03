@@ -1,7 +1,7 @@
 %define	name e_modules
 %define	version 0.0.1
-%define	svn	20091213
-%define release %mkrel 0.%{svn}.2
+%define	svn	20101229
+%define release %mkrel 0.%{svn}.1
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		%{name}
@@ -12,16 +12,13 @@ License: 	BSD
 Group: 		Graphical desktop/Enlightenment
 URL: 		http://get-e.org/
 Source: 	%{name}-%version-%{svn}.tar.bz2
-Patch1:		e_modules-0.0.1-20090227_e_util_dialog.patch
+Patch1:		e_modules-0.0.1-20101229-po.patch
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	evas-devel >= 0.9.9.050
-BuildRequires:	esmart-devel >= 0.9.0.050
 BuildRequires:	ecore-devel >= 0.9.9.050
 BuildRequires:	edje-devel >= 0.9.9.050, edje >= 0.9.9.0.050
 BuildRequires:	efreet-devel >= 0.5.0.050
 BuildRequires:	e-devel >= 0.16.999.050
-BuildRequires:	exml-devel >= 0.1.1, exml >= 0.1.1
-BuildRequires:  etk-devel >= 0.1.0.042
 BuildRequires:  embryo-devel >= 0.9.9.050, embryo >= 0.9.9.050
 BuildRequires:	e_dbus-devel >= 0.5.0.050
 BuildRequires:	exalt-devel >= 0.6
@@ -46,8 +43,9 @@ modules, written by separate authors.
 
 %prep
 %setup -q -n %name-%version
+%patch1 -p0
 # exalt-client does not build now (20091214)
-rm -fr exalt-client
+#rm -fr exalt-client
 
 %build
 rm -fr debian
