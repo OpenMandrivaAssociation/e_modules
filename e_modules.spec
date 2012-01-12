@@ -1,37 +1,52 @@
-%define	name e_modules
-%define	version 0.0.1
-%define	svn	20101229
-%define release %mkrel 0.%{svn}.1
+#Tarball of svn snapshot created as follows...
+#Cut and paste in a shell after removing initial #
+
+#svn co http://svn.enlightenment.org/svn/e/trunk/E-MODULES-EXTRA E-MODULES-EXTRA; \
+#cd E-MODULES-EXTRA; \
+#SVNREV=$(LANGUAGE=C svn info | grep "Last Changed Rev:" | cut -d: -f 2 | sed "s@ @@"); \
+#PKG_VERSION=0.0.1.$SVNREV; \
+#cd ..; \
+#tar -Jcf E-MODULES-EXTRA-$PKG_VERSION.tar.xz E-MODULES-EXTRA/ --exclude .svn --exclude .*ignore
+
+
+%define	svnrev	66640
+%define	svnname	E-MODULES-EXTRA
 
 Summary: 	Loose collection of third party E17 modules
-Name: 		%{name}
-Version: 	%{version}
-Release: 	%{release}
-Epoch:		1
+Name: 		e_modules
+Version:	0.0.1
+Release:	1.%{svnrev}.1
 License: 	BSD
 Group: 		Graphical desktop/Enlightenment
-URL: 		http://get-e.org/
-Source: 	%{name}-%version-%{svn}.tar.bz2
-Patch1:		e_modules-0.0.1-20101229-po.patch
-BuildRoot: 	%{_tmppath}/%{name}-buildroot
-BuildRequires:	evas-devel >= 0.9.9.050
-BuildRequires:	ecore-devel >= 0.9.9.050
-BuildRequires:	edje-devel >= 0.9.9.050, edje >= 0.9.9.0.050
-BuildRequires:	efreet-devel >= 0.5.0.050
-BuildRequires:	e-devel >= 0.16.999.050
-BuildRequires:  embryo-devel >= 0.9.9.050, embryo >= 0.9.9.050
-BuildRequires:	e_dbus-devel >= 0.5.0.050
-BuildRequires:	exalt-devel >= 0.6
-BuildRequires:	elementary-devel >= 0.1.0.0
-BuildRequires:	eweather-devel
-BuildRequires:	ethumb-devel
+URL: 		http://enlightenment.org/
+Source0: 	%{svnname}-%{version}.%{svnrev}.tar.xz
+Patch0:		e_modules-0.0.1-20101229-po.patch
+Patch1:		e_modules-0.0.1.62680_everything-pidgin_localization.patch
+Patch2:		e_modules-0.0.1.62680_everything-tracker_localization.patch
+Patch3:		e_modules-0.0.1.62680_xkbswitch_makefile.patch
+
+BuildRequires:	edje
+BuildRequires:  embryo
 BuildRequires:	emprint
-Buildrequires:	gettext-devel
-Buildrequires:  libxkbfile-devel
+BuildRequires:	elementary
+BuildRequires:	evas
 Buildrequires:	imagemagick
-Buildrequires:  libxcomposite-devel
-BuildRequires:	libmpd-devel
-Conflicts:	e < 0.16.999.050-3
+Buildrequires:	gettext-devel
+BuildRequires:	pkgconfig(ecore)
+BuildRequires:	pkgconfig(edbus)
+BuildRequires:	pkgconfig(edje)
+BuildRequires:	pkgconfig(eet)
+BuildRequires:	pkgconfig(efreet)
+BuildRequires:	pkgconfig(eina)
+BuildRequires:  pkgconfig(embryo)
+BuildRequires:	pkgconfig(enlightenment)
+BuildRequires:	pkgconfig(evas)
+BuildRequires:	pkgconfig(exalt)
+BuildRequires:	pkgconfig(elementary)
+BuildRequires:	pkgconfig(eweather)
+BuildRequires:	pkgconfig(ethumb)
+BuildRequires:	pkgconfig(libmpd)
+
 Requires:	e >= 0.16.999.050-3
 Requires:	emprint
 
@@ -42,13 +57,14 @@ allowed to use the E cvs repository.  The modules are all separate
 modules, written by separate authors.
 
 %prep
-%setup -q -n %name-%version
-%patch1 -p0
-# exalt-client does not build now (20091214)
-#rm -fr exalt-client
+%setup -qn %{svnname}
+%apply_patches
+
+# itask-ng-moved-to-engage
+rm -fr itask-ng
+rm -fr weather eenvader.fractal
 
 %build
-rm -fr debian
 %define Werror_cflags %nil
 
 for i in `find * -type d|awk -F'/' '{print $1}'|sort|uniq`
@@ -63,7 +79,7 @@ do
 done
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 for i in `find * -type d|awk -F'/' '{print $1}'|sort|uniq`
 do 
 	%makeinstall_std -C $i
@@ -71,16 +87,10 @@ done
 
 %find_lang %{name} --all-name
 
-# provided by e >= 0.16.999.050
-rm -fr %buildroot%{_libdir}/enlightenment/modules/mixer
-
 # do not provide devel stuffs
-rm -fr %buildroot%_includedir/drawer %buildroot%_libdir/pkgconfig
-
-%clean
-rm -rf $RPM_BUILD_ROOT
+rm -fr %{buildroot}%{_includedir}/drawer %{buildroot}%{_libdir}/pkgconfig
 
 %files -f %{name}.lang
-%defattr(-,root,root)
 %doc AUTHORS README
 %{_libdir}/enlightenment/modules/*
+
