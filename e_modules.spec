@@ -14,6 +14,7 @@
 
 Summary: 	Loose collection of third party E17 modules
 Name: 		e_modules
+Epoch:		1
 Version:	0.0.1
 Release:	1.%{svnrev}.1
 License: 	BSD
