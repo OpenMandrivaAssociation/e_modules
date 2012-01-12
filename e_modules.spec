@@ -9,7 +9,7 @@
 #tar -Jcf E-MODULES-EXTRA-$PKG_VERSION.tar.xz E-MODULES-EXTRA/ --exclude .svn --exclude .*ignore
 
 
-%define	svnrev	66640
+%define	svnrev	67107
 %define	svnname	E-MODULES-EXTRA
 
 Summary: 	Loose collection of third party E17 modules
@@ -20,7 +20,6 @@ License: 	BSD
 Group: 		Graphical desktop/Enlightenment
 URL: 		http://enlightenment.org/
 Source0: 	%{svnname}-%{version}.%{svnrev}.tar.xz
-Patch0:		e_modules-0.0.1-20101229-po.patch
 Patch1:		e_modules-0.0.1.62680_everything-pidgin_localization.patch
 Patch2:		e_modules-0.0.1.62680_everything-tracker_localization.patch
 Patch3:		e_modules-0.0.1.62680_xkbswitch_makefile.patch
@@ -67,6 +66,7 @@ rm -fr weather eenvader.fractal
 %build
 %define Werror_cflags %nil
 
+for m in itask winlist-ng; do pushd $m; sed -i 's@po/Makefile@@' configure.ac ; sed -i 's@ po@@' Makefile.am; popd; done
 for i in `find * -type d|awk -F'/' '{print $1}'|sort|uniq`
 do
 (
@@ -89,6 +89,7 @@ done
 
 # do not provide devel stuffs
 rm -fr %{buildroot}%{_includedir}/drawer %{buildroot}%{_libdir}/pkgconfig
+find %{buildroot} -type f -name "*.a" -exec rm -f {} ';'
 
 %files -f %{name}.lang
 %doc AUTHORS README
