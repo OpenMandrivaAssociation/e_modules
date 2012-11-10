@@ -1,0 +1,41 @@
+diff -uNr E-MODULES-EXTRA.old/everything-tracker/src/e_mod_main.c E-MODULES-EXTRA/everything-tracker/src/e_mod_main.c
+--- E-MODULES-EXTRA.old/everything-tracker/src/e_mod_main.c	2011-08-24 18:04:03.000000000 +0000
++++ E-MODULES-EXTRA/everything-tracker/src/e_mod_main.c	2011-08-24 23:42:36.185000103 +0000
+@@ -933,10 +933,10 @@
+      plugins = eina_list_append(plugins, p); }
+ 
+ 
+-   FILE_PLUGIN_NEW("Tracker", EVRY_PLUGIN_SUBJECT, "find", EVRY_TYPE_FILE,
++   FILE_PLUGIN_NEW(N_("Tracker"), EVRY_PLUGIN_SUBJECT, "find", EVRY_TYPE_FILE,
+ 		   _begin, _finish, _fetch, query_files);
+ 
+-   FILE_PLUGIN_NEW("Tracker", EVRY_PLUGIN_OBJECT, "find", EVRY_TYPE_FILE,
++   FILE_PLUGIN_NEW(N_("Tracker"), EVRY_PLUGIN_OBJECT, "find", EVRY_TYPE_FILE,
+ 		   _begin, _finish, _fetch, query_files);
+ 
+ 
+@@ -952,19 +952,19 @@
+ 	 p->config->min_query = _min_query; }				\
+       plugins = eina_list_append(plugins, p); }
+ 
+-   QUERY_PLUGIN_NEW("Albums", EVRY_PLUGIN_OBJECT, "emblem-sound", TRACKER_MUSIC,
++   QUERY_PLUGIN_NEW(N_("Albums"), EVRY_PLUGIN_OBJECT, "emblem-sound", TRACKER_MUSIC,
+ 		    _begin, _finish, _fetch, query_albums, 4);
+ 
+-   QUERY_PLUGIN_NEW("Artist", EVRY_PLUGIN_OBJECT, "emblem-sound", TRACKER_MUSIC,
++   QUERY_PLUGIN_NEW(N_("Artist"), EVRY_PLUGIN_OBJECT, "emblem-sound", TRACKER_MUSIC,
+ 		    _begin, _finish, _fetch, query_artists, 4);
+ 
+-   QUERY_PLUGIN_NEW("Most Listened", EVRY_PLUGIN_OBJECT, "emblem-sound", TRACKER_MUSIC,
++   QUERY_PLUGIN_NEW(N_("Most Listened"), EVRY_PLUGIN_OBJECT, "emblem-sound", TRACKER_MUSIC,
+ 		    _begin, _finish, _fetch, query_most_played, 0);
+ 
+-   QUERY_PLUGIN_NEW("Albums", EVRY_PLUGIN_SUBJECT, "emblem-sound", TRACKER_MUSIC,
++   QUERY_PLUGIN_NEW(N_("Albums"), EVRY_PLUGIN_SUBJECT, "emblem-sound", TRACKER_MUSIC,
+ 		    _begin, _finish, _fetch, query_albums, 4);
+ 
+-   QUERY_PLUGIN_NEW("Artist", EVRY_PLUGIN_SUBJECT, "emblem-sound", TRACKER_MUSIC,
++   QUERY_PLUGIN_NEW(N_("Artist"), EVRY_PLUGIN_SUBJECT, "emblem-sound", TRACKER_MUSIC,
+ 		    _begin, _finish, _fetch, query_artists, 4);
+ 
+    /* QUERY_PLUGIN_NEW(N_("Most Listened"), EVRY_PLUGIN_SUBJECT, "emblem-sound", TRACKER_MUSIC,
