@@ -1,7 +1,7 @@
-diff -uNr E-MODULES-EXTRA.old/everything-tracker/src/e_mod_main.c E-MODULES-EXTRA/everything-tracker/src/e_mod_main.c
---- E-MODULES-EXTRA.old/everything-tracker/src/e_mod_main.c	2011-08-24 18:04:03.000000000 +0000
-+++ E-MODULES-EXTRA/everything-tracker/src/e_mod_main.c	2011-08-24 23:42:36.185000103 +0000
-@@ -933,10 +933,10 @@
+diff -urN E-MODULES-EXTRA/everything-tracker/src/e_mod_main.c E-MODULES-EXTRA-patched/everything-tracker/src/e_mod_main.c
+--- E-MODULES-EXTRA/everything-tracker/src/e_mod_main.c	2011-12-01 21:59:43.000000000 +1100
++++ E-MODULES-EXTRA-patched/everything-tracker/src/e_mod_main.c	2012-10-10 21:46:42.509658379 +1100
+@@ -937,10 +937,10 @@
       plugins = eina_list_append(plugins, p); }
  
  
@@ -14,7 +14,7 @@ diff -uNr E-MODULES-EXTRA.old/everything-tracker/src/e_mod_main.c E-MODULES-EXTR
  		   _begin, _finish, _fetch, query_files);
  
  
-@@ -952,19 +952,19 @@
+@@ -956,19 +956,19 @@
  	 p->config->min_query = _min_query; }				\
        plugins = eina_list_append(plugins, p); }
  

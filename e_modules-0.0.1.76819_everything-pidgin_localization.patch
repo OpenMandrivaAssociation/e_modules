@@ -1,7 +1,7 @@
-diff -uNr E-MODULES-EXTRA.old/everything-pidgin/src/e_mod_main.c E-MODULES-EXTRA/everything-pidgin/src/e_mod_main.c
---- E-MODULES-EXTRA.old/everything-pidgin/src/e_mod_main.c	2011-08-24 18:04:03.000000000 +0000
-+++ E-MODULES-EXTRA/everything-pidgin/src/e_mod_main.c	2011-08-24 23:32:18.696000105 +0000
-@@ -617,18 +617,18 @@
+diff -urN E-MODULES-EXTRA/everything-pidgin/src/e_mod_main.c E-MODULES-EXTRA-patched/everything-pidgin/src/e_mod_main.c
+--- E-MODULES-EXTRA/everything-pidgin/src/e_mod_main.c	2011-09-05 23:11:34.000000000 +1100
++++ E-MODULES-EXTRA-patched/everything-pidgin/src/e_mod_main.c	2012-10-10 21:43:29.329660425 +1100
+@@ -615,18 +615,18 @@
  
     buddy_icon_default = eina_stringshare_add("emblem-people");
  
