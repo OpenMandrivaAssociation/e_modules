@@ -9,7 +9,7 @@
 #tar -Jcf E-MODULES-EXTRA-$PKG_VERSION.tar.xz E-MODULES-EXTRA/ --exclude .svn --exclude .*ignore
 
 
-%define	svnrev	76819
+%define	svnrev	84419
 %define	svnname	E-MODULES-EXTRA
 
 Summary:	Loose collection of third party E17 modules
