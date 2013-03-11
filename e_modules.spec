@@ -44,6 +44,7 @@ BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(ethumb)
 BuildRequires:	pkgconfig(libmpd)
 BuildRequires:	pkgconfig(xkbfile)
+BuildRequires:	v8-devel
 
 Requires:	e >= 0.16.999.050-3
 Requires:	emprint
