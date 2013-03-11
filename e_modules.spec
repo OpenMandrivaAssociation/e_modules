@@ -21,8 +21,6 @@ License:	BSD
 Group:		Graphical desktop/Enlightenment
 URL:		http://enlightenment.org/
 Source0:	%{svnname}-%{version}.%{svnrev}.tar.xz
-Patch1:		e_modules-0.0.1.76819_everything-pidgin_localization.patch
-Patch2:		e_modules-0.0.1.76819_everything-tracker_localization.patch
 
 BuildRequires:	edje
 BuildRequires:	embryo
@@ -58,7 +56,6 @@ modules, written by separate authors.
 
 %prep
 %setup -qn %{svnname}
-%apply_patches
 
 # itask-ng-moved-to-engage
 rm -fr itask-ng
