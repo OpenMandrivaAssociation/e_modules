@@ -60,9 +60,9 @@ modules, written by separate authors.
 %prep
 %setup -qn %{svnname}
 
-# itask-ng-moved-to-engage
-rm -fr itask-ng
 rm -fr weather eenvader.fractal
+# share uses E18 api
+rm -fr share
 
 %build
 %define Werror_cflags %nil
