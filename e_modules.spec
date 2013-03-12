@@ -43,6 +43,7 @@ BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(ethumb)
 BuildRequires:	pkgconfig(json)
+BuildRequires:	pkgconfig(libbsd)
 BuildRequires:	pkgconfig(libmpd)
 BuildRequires:	pkgconfig(xkbfile)
 BuildRequires:	v8-devel
