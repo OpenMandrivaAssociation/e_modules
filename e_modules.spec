@@ -16,7 +16,7 @@ Summary:	Loose collection of third party E17 modules
 Name:		e_modules
 Epoch:		1
 Version:	0.0.1
-Release:	1.%{svnrev}.2
+Release:	1.%{svnrev}.3
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 URL:		http://enlightenment.org/
