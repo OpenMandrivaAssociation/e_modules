@@ -50,7 +50,7 @@ separate modules, written by separate authors.
 %setup -qn %{name}-%{version}.%{gitdate}
 
 # No longer build, not ready to use etc
-rm -fr comp-scale eenvader.fractal empris engage everything-websearch packagekit
+rm -fr comp-scale eenvader.fractal empris engage everything-websearch packagekit photo
 
 %build
 %define Werror_cflags %nil
