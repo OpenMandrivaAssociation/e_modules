@@ -41,7 +41,6 @@ are allowed to use the Enlightenment git repository. The modules are all
 separate modules, written by separate authors.
 
 %files
-%doc AUTHORS README
 %{_libdir}/enlightenment/modules/*
 
 #----------------------------------------------------------------------------
