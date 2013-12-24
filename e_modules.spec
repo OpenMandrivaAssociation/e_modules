@@ -49,7 +49,8 @@ separate modules, written by separate authors.
 %prep
 %setup -qn %{name}-%{version}.%{gitdate}
 
-rm -fr eenvader.fractal everything-websearch packagekit
+# No longer build, not ready to use etc
+rm -fr eenvader.fractal everything-websearch packagekit comp-scale
 
 %build
 %define Werror_cflags %nil
