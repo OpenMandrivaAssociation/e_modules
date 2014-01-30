@@ -4,7 +4,7 @@ Summary:	Loose collection of third party Enlightenment modules
 Name:		e_modules
 Epoch:		1
 Version:	0.0.1
-Release:	2.%{gitdate}.1
+Release:	2.%{gitdate}.2
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 Url:		http://enlightenment.org/
