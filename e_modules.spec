@@ -1,10 +1,10 @@
-%define	gitdate	20131224
+%define gitdate 20140902
 
 Summary:	Loose collection of third party Enlightenment modules
 Name:		e_modules
 Epoch:		1
 Version:	0.0.1
-Release:	2.%{gitdate}.2
+Release:	2.%{gitdate}.3
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 Url:		http://enlightenment.org/
@@ -13,22 +13,22 @@ BuildRequires:	edje
 BuildRequires:	embryo
 BuildRequires:	elementary
 BuildRequires:	evas
-Buildrequires:	imagemagick
-Buildrequires:	gettext-devel
+BuildRequires:	imagemagick
+BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(ecore)
-BuildRequires:	pkgconfig(eldbus)
 BuildRequires:	pkgconfig(edje)
 BuildRequires:	pkgconfig(eet)
 BuildRequires:	pkgconfig(eeze)
 BuildRequires:	pkgconfig(efreet)
 BuildRequires:	pkgconfig(eina)
+BuildRequires:	pkgconfig(eldbus)
+BuildRequires:	pkgconfig(elementary)
 BuildRequires:	pkgconfig(embryo)
 BuildRequires:	pkgconfig(enlightenment)
-BuildRequires:	pkgconfig(evas)
-BuildRequires:	pkgconfig(elementary)
-BuildRequires:	pkgconfig(eweather)
 BuildRequires:	pkgconfig(ethumb)
-BuildRequires:	pkgconfig(json)
+BuildRequires:	pkgconfig(evas)
+BuildRequires:	pkgconfig(eweather)
+BuildRequires:	pkgconfig(json-c)
 BuildRequires:	pkgconfig(libmpd)
 BuildRequires:	pkgconfig(xkbfile)
 BuildRequires:	v8-devel
@@ -59,7 +59,7 @@ do
 (
 	pushd $i
 	autoreconf -fi
-	%configure2_5x --disable-static
+	%configure --disable-static
 	make
 	popd
 )
