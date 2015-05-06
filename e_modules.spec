@@ -1,4 +1,4 @@
-%define gitdate 20140902
+%define gitdate 20150506
 
 Summary:	Loose collection of third party Enlightenment modules
 Name:		e_modules
@@ -8,7 +8,7 @@ Release:	2.%{gitdate}.3
 License:	BSD
 Group:		Graphical desktop/Enlightenment
 Url:		http://enlightenment.org/
-Source0:	%{name}-%{version}.%{gitdate}.tar.bz2
+Source0:	%{name}-%{version}.%{gitdate}.tar.xz
 BuildRequires:	edje
 BuildRequires:	embryo
 BuildRequires:	elementary
