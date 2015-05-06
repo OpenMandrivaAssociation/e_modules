@@ -1,0 +1,58 @@
+# Galician translation of tclock
+# This file is put in the public domain.
+# Aníbal Garrido <khany@member.trisquel.info>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tclock\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-24 11:51+0200\n"
+"PO-Revision-Date: 2013-06-21 11:09+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"Language-Team: http://trasno.net/ <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-08-25 05:02+0000\n"
+"X-Generator: Launchpad (build 16738)\n"
+"Language: gl\n"
+
+#: src/e_mod_config.c:39
+msgid "Tclock Settings"
+msgstr "Axustes do Tclock"
+
+#: src/e_mod_config.c:88
+msgid "Top"
+msgstr "Enriba"
+
+#: src/e_mod_config.c:90
+msgid "Show Top Line"
+msgstr "Amosar a liña superior"
+
+#: src/e_mod_config.c:98 src/e_mod_config.c:113 src/e_mod_config.c:129
+msgid "Consult strftime(3) for format syntax"
+msgstr "Consulte strftime(3) para a sintaxe do formato"
+
+#: src/e_mod_config.c:102
+msgid "Bottom"
+msgstr "Embaixo"
+
+#: src/e_mod_config.c:104
+msgid "Show Bottom Line"
+msgstr "Amosar a liña inferior"
+
+#: src/e_mod_config.c:117
+msgid "Tool Tip"
+msgstr "Consellos"
+
+#: src/e_mod_config.c:119
+msgid "Show Tooltip"
+msgstr "Amosar consello"
+
+#: src/e_mod_main.c:141
+msgid "TClock"
+msgstr "TClock"
+
+#: src/e_mod_main.c:181
+msgid "Settings"
+msgstr "Axustes"

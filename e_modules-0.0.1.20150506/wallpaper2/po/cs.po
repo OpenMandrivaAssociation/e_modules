@@ -1,0 +1,78 @@
+# Czech translation
+# This file is put in the public domain.
+# quaker66@gmail.com
+#
+# Vít Pelčák <vit@pelcak.org>, 2011.
+# Tomáš Čech <sleep_walker@suse.cz>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: DR17\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2012-12-21 20:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Pozadí motivu"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "Mazání souborů..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Nastavení pozadí plochy"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "OK"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Použít"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Zavřít"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Všechny plochy"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Tato plocha"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Tato obrazovka"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Přidat"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Smazat"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Vzhled"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "Pozadí plochy"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Interní"

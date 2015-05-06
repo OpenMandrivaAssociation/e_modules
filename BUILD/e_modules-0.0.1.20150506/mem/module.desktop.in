@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Link
+Name=Mem
+Name[el]=Μνήμη
+Name[eo]=Memoro
+Name[fr]=Mémoire
+Name[hu]=Memória
+Name[pt]=Memória
+Name[ru]=Память
+Comment=Used to monitor memory utilization.
+Comment[cs]=Zobrazí využití paměti.
+Comment[el]=Χρησιμοποιείται για την παρατήρηση της μνήμης.
+Comment[eo]=Elrigardi la uzadon de memoro.
+Comment[es]=Utilizado para monitorizar el uso de la memoria.
+Comment[fr]=Affiche l'utilisation de la mémoire.
+Comment[gl]=Empregado para monitorizar o uso da memoria.
+Comment[hu]=A fizikai memória foglaltságát jelzi ki.
+Comment[it]=Usato per il monitoraggio dell'utilizzo della memoria.
+Comment[pt]=Utilizado para monitorizar a memória utilizada
+Comment[ru]=Используется для мониторинга использования памяти.
+Icon=e-module-mem
+X-Enlightenment-ModuleType=system

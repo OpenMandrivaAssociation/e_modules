@@ -1,0 +1,79 @@
+# Lithuanian translation for enlightenment
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the enlightenment package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# Vaidotas <joshas@freemail.lt>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2014-05-14 09:26+0000\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Language-Team: Lithuanian Translation team\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2014-05-25 05:37+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Temos ekrano fonas"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "Šalinami failai"
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Darbalaukio fono nustatymai"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "Gerai"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Pritaikyti"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Užverti"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Visuose darbastaliuose"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Šiame darbastalyje"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Šiame ekrane"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Pridėti"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Šalinti"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Išvaizda"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "Darbalaukio fonas"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Vidinis"

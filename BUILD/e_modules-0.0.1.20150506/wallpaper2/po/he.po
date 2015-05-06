@@ -1,0 +1,81 @@
+# Hebrew translation for enlightenment
+# This file is distributed under the same license as the enlightenment package.
+# Yaron <sh.yaron@gmail.com>, 2008-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2009-09-11 09:15+0000\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-11-10 07:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+#, fuzzy
+msgid "Theme Wallpaper"
+msgstr "נושא טפט"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "מחיקת קבצים ..."
+
+#: src/e_int_config_wallpaper.c:1174
+#, fuzzy
+msgid "Wallpaper Settings"
+msgstr "טפט הגדרות"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "אישור"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "החל"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "סגור"
+
+#: src/e_int_config_wallpaper.c:1252
+#, fuzzy
+msgid "All Desktops"
+msgstr "כל המחשבים השולחניים"
+
+#: src/e_int_config_wallpaper.c:1258
+#, fuzzy
+msgid "This Desktop"
+msgstr "זה שולחן העבודה"
+
+#: src/e_int_config_wallpaper.c:1263
+#, fuzzy
+msgid "This Screen"
+msgstr "מסך זה"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "הוסף"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "מחק"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "מראה"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "טפט"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "פנימי"

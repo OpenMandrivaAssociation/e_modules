@@ -1,0 +1,78 @@
+# Russian translation of Enlightenment.
+# This file is put in the public domain.
+# Denis Klykvin <nikon@altlinux.ru>, 2005.
+# Koptev Oleg <koptev.oleg@gmail.com>, 2009.
+# Aron Xu <Unknown>, 2010.
+# Danny Moshnakov <dm@agent.co.il>, 2010, 2012.
+# Igor Murzov <e-mail@date.by>, 2012, 2013
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Enlightenment 0.17\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2013-12-21 03:15+0400\n"
+"Last-Translator: Игорь Мурзов <e-mail@date.by>\n"
+"Language-Team: ru <enlightenment-intl@lists.sourceforge.net>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Обои из темы"
+
+#: src/e_int_config_wallpaper.c:1106
+msgid "Loading files..."
+msgstr "Идёт загрузка файлов..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Настройки обоев"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "ОК"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Применить"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Все рабочие столы"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Этот рабочий стол"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Этот экран"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Добавить"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Вид"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+msgid "Wallpaper 2"
+msgstr "Обои 2"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Встроенный"

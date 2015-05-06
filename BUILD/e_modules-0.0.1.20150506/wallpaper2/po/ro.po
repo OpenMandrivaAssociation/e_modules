@@ -1,0 +1,85 @@
+# Romanian translation for enlightenment
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the enlightenment package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2009-11-25 12:09+0000\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-11-26 04:38+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+#, fuzzy
+msgid "Theme Wallpaper"
+msgstr "Tema Wallpaper"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "Ştergerea fişierelor ..."
+
+#: src/e_int_config_wallpaper.c:1174
+#, fuzzy
+msgid "Wallpaper Settings"
+msgstr "Wallpaper Setări"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "OK"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Aplică"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Închide"
+
+#: src/e_int_config_wallpaper.c:1252
+#, fuzzy
+msgid "All Desktops"
+msgstr "toate desktopuri"
+
+#: src/e_int_config_wallpaper.c:1258
+#, fuzzy
+msgid "This Desktop"
+msgstr "acest Desktop"
+
+#: src/e_int_config_wallpaper.c:1263
+#, fuzzy
+msgid "This Screen"
+msgstr "acest ecran"
+
+#: src/e_int_config_wallpaper.c:1276
+#, fuzzy
+msgid "Add"
+msgstr "adăuga"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Șterge"
+
+#: src/e_mod_main.c:25
+#, fuzzy
+msgid "Look"
+msgstr "uite"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "tapet"
+
+#: src/e_mod_main.c:27
+#, fuzzy
+msgid "Internal"
+msgstr "intern"

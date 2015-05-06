@@ -1,0 +1,87 @@
+# Lithuanian translation for enlightenment
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the enlightenment package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-05-24 09:17+0200\n"
+"PO-Revision-Date: 2014-05-12 14:56+0000\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-25 05:45+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+
+#: src/e_mod_config.c:38
+msgid "MPDule Configuration"
+msgstr "MPDule konfigūracija"
+
+#: src/e_mod_config.c:86
+msgid "Configuration"
+msgstr "Konfigūracija"
+
+#: src/e_mod_config.c:87
+msgid "Poll Time:"
+msgstr ""
+
+#: src/e_mod_config.c:90
+#, c-format
+msgid "%1.0f seconds"
+msgstr "%1.0f sekundžių"
+
+#: src/e_mod_config.c:93
+msgid "Hostname:"
+msgstr "Serverio vardas:"
+
+#: src/e_mod_config.c:100
+msgid "Port:"
+msgstr "Prievadas:"
+
+#: src/e_mod_config.c:105
+msgid "Show Popup"
+msgstr ""
+
+#: src/e_mod_main.c:193
+msgid "MPDule"
+msgstr ""
+
+#: src/e_mod_main.c:231
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: src/e_mod_main.c:499
+msgid "Unknown"
+msgstr ""
+
+#: src/e_mod_main.c:507
+msgid "Stopped"
+msgstr ""
+
+#: src/e_mod_main.c:515
+msgid "Playing"
+msgstr "Groja"
+
+#: src/e_mod_main.c:523
+msgid "Paused"
+msgstr "Pristabdyta"
+
+#: src/e_mod_main.c:715
+msgid "Artist:"
+msgstr "Atlikėjas:"
+
+#: src/e_mod_main.c:716
+msgid "Title:"
+msgstr "Pavadinimas:"
+
+#: src/e_mod_main.c:717
+msgid "Album:"
+msgstr "Albumas:"
+
+#: src/e_mod_main.c:718
+msgid "Genre:"
+msgstr "Žanras:"

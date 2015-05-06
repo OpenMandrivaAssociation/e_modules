@@ -1,0 +1,78 @@
+# translation of el.po to Ελληνικά
+# Greek translation for Enlightenment17.
+# This file is put in the public domain.
+#
+# George Koutsikos <ragecryx@yahoo.gr>, 2008.
+# Aron Xu <aronmalache@163.com>, 2008.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2013-11-20 22:41+0200\n"
+"Last-Translator: George Koutsikos <ragecryx@yahoo.gr>\n"
+"Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Ταπετσαρία Θέματος"
+
+#: src/e_int_config_wallpaper.c:1106
+msgid "Loading files..."
+msgstr "Φόρτωση αρχείων..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Ρυθμίσεις Ταπετσαρίας"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "Εντάξει"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Σε όλες τις Επιφάνειες Εργασίας"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Σε αυτή την Επιφάνεια Εργασίας"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Σε αυτή την Οθόνη"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Εμφάνιση"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+msgid "Wallpaper 2"
+msgstr "Ταπετσαρία 2"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Εσωτερικό"

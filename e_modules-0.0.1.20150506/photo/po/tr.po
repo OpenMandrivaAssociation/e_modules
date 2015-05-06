@@ -1,0 +1,389 @@
+# Turkish translation for enlightenment
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the enlightenment package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-23 11:50+0200\n"
+"PO-Revision-Date: 2014-04-16 13:24+0000\n"
+"Last-Translator: Ali E.İMREK <alierkanimrek@gmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-17 05:56+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
+"Language: tr\n"
+
+#: src/e_mod_main.c:53 src/e_mod_main.c:60 src/e_mod_main.c:67
+#: src/e_mod_main.c:74 src/e_mod_main.c:81 src/e_mod_main.c:88
+msgid "Photo Module"
+msgstr "Fotoğraf Modülü"
+
+#: src/e_mod_main.c:53
+msgid "E Canvas init failed !"
+msgstr "E Canvas başlatılamadı!"
+
+#: src/e_mod_main.c:60
+msgid "Theme init failed !"
+msgstr "Tema başlatılamadı!"
+
+#: src/e_mod_main.c:67
+msgid "Config init failed"
+msgstr "Ayarlar başlatılamadı"
+
+#: src/e_mod_main.c:74
+msgid "Picture subsystem init failed"
+msgstr "Resim alt sistemi başlatılamadı."
+
+#: src/e_mod_main.c:81
+msgid "Popup warn subsystem init failed"
+msgstr "Uyarı görüntüleme alt sistemi başlatılamadı."
+
+#: src/e_mod_main.c:88
+msgid "Popup info subsystem init failed"
+msgstr "Bilgi görüntüleme alt sistemi başlatılamadı."
+
+#: src/e_mod_main.c:181
+msgid "Photo"
+msgstr "Resim"
+
+#: src/photo_config.c:65
+#, c-format
+msgid ""
+"<hilight>Photo module : Configuration Upgraded</hilight><br><br>Your "
+"configuration of photo module<br>has been upgraded<br>Your settings were "
+"removed<br>Sorry for the inconvenience<br><br>(%d -> %d)"
+msgstr ""
+"<hilight>Fotoğraf Modülü : Yapılandırma "
+"yükseltildi</hilight><br><br>Fotoğraf modülü yapılandırması<br> "
+"yükseltildi<br>Özel ayarlarınız silindi<br>Bu durumdan dolayı "
+"üzgünüz<br><br>(%d -> %d)"
+
+#: src/photo_config.c:71 src/photo_config.c:85
+msgid "Photo Module version "
+msgstr "Fotoğraf modülü sürümü "
+
+#: src/photo_config.c:79
+#, c-format
+msgid ""
+"<hilight>Photo module : Configuration Downgraded</hilight><br><br>Your "
+"configuration of Photo module<br>has been downgraded<br>Your settings were "
+"removed<br>Sorry for the inconvenience<br><br>(%d ->%d)"
+msgstr ""
+"<hilight>Fotoğraf Modülü : Yapılandırma sürümü "
+"geriletildi</hilight><br><br>Fotoğraf modülü yapılandırma<br>sürümü "
+"geriletildi<br>Özel ayarlarınız silindi<br>Bu durumdan dolayı "
+"üzgünüz<br><br>(%d ->%d)"
+
+#: src/photo_config_dialog.c:64
+msgid "Photo Configuration"
+msgstr "Fotoğraf Yapılandırması"
+
+#: src/photo_config_dialog.c:220
+msgid "Picture directories"
+msgstr "Resim dizinleri"
+
+#: src/photo_config_dialog.c:235
+msgid "Add"
+msgstr "İlâve et"
+
+#: src/photo_config_dialog.c:237
+msgid "Delete"
+msgstr "SIL"
+
+#: src/photo_config_dialog.c:239
+msgid "Configure"
+msgstr "Yapılandırma"
+
+#: src/photo_config_dialog.c:242
+msgid "Reload picture directories"
+msgstr "Resim dizinlerini yeniden yükle"
+
+#: src/photo_config_dialog.c:245
+msgid "Stop loading"
+msgstr "Yüklemeyi durdur"
+
+#: src/photo_config_dialog.c:252 src/photo_config_dialog_item.c:127
+msgid "Appearance"
+msgstr "Gürünüm"
+
+#: src/photo_config_dialog.c:254 src/photo_config_dialog_item.c:136
+msgid "Always show label"
+msgstr "Etiketleri daima göster"
+
+#: src/photo_config_dialog.c:256
+msgid "Nice transitions"
+msgstr "Hassas geçişler"
+
+#: src/photo_config_dialog.c:262
+msgid "Default Mouse actions"
+msgstr "Öntanımlı fare eylemleri"
+
+#: src/photo_config_dialog.c:264 src/photo_config_dialog_item.c:191
+msgid "Over"
+msgstr "Üzerine"
+
+#: src/photo_config_dialog.c:268 src/photo_config_dialog_item.c:195
+msgid "Left"
+msgstr "Sola"
+
+#: src/photo_config_dialog.c:270 src/photo_config_dialog.c:276
+#: src/photo_config_dialog_item.c:197 src/photo_config_dialog_item.c:203
+msgid "click"
+msgstr "Tıkla"
+
+#: src/photo_config_dialog.c:274 src/photo_config_dialog_item.c:201
+msgid "Middle"
+msgstr "Orta"
+
+#: src/photo_config_dialog.c:279 src/photo_config_dialog_item.c:142
+msgid "No"
+msgstr "Yok"
+
+#: src/photo_config_dialog.c:318
+msgid "Popups"
+msgstr "Açılır Pencereler"
+
+#: src/photo_config_dialog.c:320
+msgid "Picture loader popup"
+msgstr "Resim yükleyici uyarısı"
+
+#: src/photo_config_dialog.c:323
+msgid "Never"
+msgstr "Hiçbir zaman"
+
+#: src/photo_config_dialog.c:325
+msgid "Summary"
+msgstr "Özet"
+
+#: src/photo_config_dialog.c:327
+msgid "Verbose"
+msgstr "Ayrıntı"
+
+#: src/photo_config_dialog.c:332
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+#: src/photo_config_dialog.c:334
+msgid "Remove generated backgrounds"
+msgstr "Üretilmiş arkaplanları kaldır"
+
+#: src/photo_config_dialog.c:338
+msgid "Pictures viewer"
+msgstr "Resim gösterici"
+
+#: src/photo_config_dialog.c:344
+msgid "Images Quality"
+msgstr "Resim kalitesi"
+
+#: src/photo_config_dialog.c:346
+#, c-format
+msgid "%1.0f pix"
+msgstr "%1.0f pix"
+
+#: src/photo_config_dialog.c:353
+msgid "Automaticly reload directories"
+msgstr "Dizinleri otomatik yükle"
+
+#: src/photo_config_dialog.c:356
+msgid "when add / modify directory list"
+msgstr "dizin listeleri eklendiğinde / düzenlendiğinde"
+
+#: src/photo_config_dialog.h:36
+msgid "Show label"
+msgstr "Etiketi göster"
+
+#: src/photo_config_dialog.h:38
+msgid "Show informations"
+msgstr "Bilgileri göster"
+
+#: src/photo_config_dialog.h:40 src/photo_menu.c:72
+msgid "Previous picture"
+msgstr "Önceki görüntü"
+
+#: src/photo_config_dialog.h:42 src/photo_menu.c:68
+msgid "Next picture"
+msgstr "Sonraki görüntü"
+
+#: src/photo_config_dialog.h:44
+msgid "Pause"
+msgstr "Durdur"
+
+#: src/photo_config_dialog.h:46 src/photo_menu.c:92
+msgid "Set as background"
+msgstr "Arkaplan olarak ayarla"
+
+#: src/photo_config_dialog.h:48
+msgid "Open viewer"
+msgstr "Görüntüleyiciyi aç"
+
+#: src/photo_config_dialog.h:50
+msgid "Show menu"
+msgstr "Menüyü göster"
+
+#: src/photo_config_dialog_dir.c:38
+msgid "Photo Directory Configuration"
+msgstr "Resim dizini yapılandırması"
+
+#: src/photo_config_dialog_dir.c:118
+msgid "Directory"
+msgstr "Dizin"
+
+#: src/photo_config_dialog_dir.c:127
+msgid "Loading options"
+msgstr "Seçenekler yükleniyor"
+
+#: src/photo_config_dialog_dir.c:129
+msgid "Recursive"
+msgstr "Alt dizinleri oku"
+
+#: src/photo_config_dialog_dir.c:131
+msgid "Read hidden files"
+msgstr "Gizli dosyaları oku"
+
+#: src/photo_config_dialog_dir.c:158
+msgid "Photo Module Warning"
+msgstr "Fotoğraf Modülü Uyarısı"
+
+#: src/photo_config_dialog_item.c:48
+msgid "Photo Item Configuration"
+msgstr "Fotoğraf Öğesi Yapılandırması"
+
+#: src/photo_config_dialog_item.c:112
+msgid "Timer between pictures change"
+msgstr "Resim değişimi zamanlayıcısı"
+
+#: src/photo_config_dialog_item.c:114
+msgid "Activate"
+msgstr "Aktifleştir"
+
+#: src/photo_config_dialog_item.c:117
+#, c-format
+msgid "%1.0f seconds"
+msgstr "%1.0f saniye"
+
+#: src/photo_config_dialog_item.c:129
+msgid "Alpha"
+msgstr "Görünürlük"
+
+#: src/photo_config_dialog_item.c:132
+#, c-format
+msgid "%1.0f"
+msgstr "%1.0f"
+
+#: src/photo_config_dialog_item.c:140
+msgid "Yes"
+msgstr "Evet"
+
+#: src/photo_config_dialog_item.c:144 src/photo_config_dialog_item.c:206
+msgid "Default setting"
+msgstr "Öntanımlı ayar"
+
+#: src/photo_config_dialog_item.c:189
+msgid "Mouse actions"
+msgstr "Fare eylemleri"
+
+#: src/photo_item.c:389 src/photo_item.c:452
+#, c-format
+msgid ""
+"<hilight>File %s doesn't exist.</hilight><br><br>This file is in the picture "
+"list, but it seems you removed<br>it from disk. It can't be set as "
+"background, sorry."
+msgstr ""
+"<hilight> %s adlı dosya yok.</hilight><br><br>Bu dosya resim listesinde, "
+"fakat diskten silinmiş görünüyor.<br>Arkaplan olarak ayarlanamaz, üzgünüm."
+
+#: src/photo_item.c:392 src/photo_item.c:417 src/photo_item.c:455
+#: src/photo_item.c:475 src/photo_picture_local.c:259
+msgid "Photo Module Error"
+msgstr "Fotoğraf Modülü Hatası"
+
+#: src/photo_item.c:413
+#, c-format
+msgid ""
+"<hilight>e17setroot needed</hilight><br><br>%s is not an edje file!<br>Photo "
+"module needs e17setroot util from e_utils package to set your picture as "
+"background. Please install it and try again."
+msgstr ""
+"<hilight>e17setroot Gerekli</hilight><br><br>%s bir edje dosyası "
+"değil!<br>Fotoğraf modülü resminizi arkaplan yapmak için e_utils paketinden "
+"çıkan e17setroot aracına ihtiyaç duyuyor. Lütfen bu paketi kurun ve tekrar "
+"deneyin."
+
+#: src/photo_item.c:472
+#, c-format
+msgid ""
+"<hilight>Viewer %s not found !</hilight><br><br>You can change the viewer "
+"for images in the Photo module configuration panel (Advanced view)"
+msgstr ""
+"<hilight> %s Görüntüleyici bulunamadı !</hilight><br><br>Fotoğraf Modülü "
+"yapılandırma panelinden resimler için görüntüleyiciyi değiştirebilirsiniz "
+"(Gelişmiş görünüm)"
+
+#: src/photo_menu.c:41
+msgid "Module Settings"
+msgstr "Modül Ayarları"
+
+#: src/photo_menu.c:47
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: src/photo_menu.c:58
+msgid "Pause slideshow"
+msgstr "Gösteriyi durdur"
+
+#: src/photo_menu.c:63
+msgid "Resume slideshow"
+msgstr "Gösteriye devam et"
+
+#: src/photo_menu.c:78
+msgid "Historic"
+msgstr "Geçmiş"
+
+#: src/photo_menu.c:88
+msgid "Picture informations"
+msgstr "Resim bilgileri"
+
+#: src/photo_menu.c:96
+msgid "Open in"
+msgstr "İçinde aç"
+
+#: src/photo_picture_local.c:253
+#, c-format
+msgid ""
+"<hilight>Directory %s doesnt exists.</hilight><br><br>You can change the "
+"picture's folders in main configuration panel<br>They can be jpeg or "
+"png<br><br>After import, if you can remove these files and the pictures "
+"still can<br>be viewed, but you wont be able to set them as wallpaper "
+"anymore<br><br>"
+msgstr ""
+"<hilight>%s Dizini yok.</hilight><br><br>Ana yapılandırma panelinden resim "
+"dizinlerini değiştirebilirsiniz.<br>Jpeg veya Png biçiminde "
+"olabilirler<br><br>Resimleri yükledikten sonra diskten silseniz bile hala "
+"görüntülenebilirler,<br>fakat arkaplan olarak ayarlayamazsınız.<br><br>"
+
+#: src/photo_picture_local.c:591
+msgid "Photo Module Information"
+msgstr "Fotoğraf Modülü Bilgileri"
+
+#: src/photo_picture_local.c:592
+msgid ""
+"<hilight>Creating thumbs</hilight><br><br>Some pictures are being thumbed in "
+"a <hilight>background task</hilight>.<br>It can take a while, but after, "
+"loading will be faster and lighter :)<br><br>Each time wou will load "
+"pictures that haven't been loaded in Photo module before,<br>they will be "
+"thumbed.<br><br>While creating popups, you will not be able to see any "
+"picture in Photo.<br>I hope i'll be able to change that :)"
+msgstr ""
+"<hilight>Önizlemeler oluşturuluyor</hilight><br><br>\r\n"
+"Bazı resimler <hilight>arkaplanda</hilight> işleniyor.<br>\r\n"
+"Bu biraz zaman alabilir, fakat sonraki erişimler daha hızlı<br>\r\n"
+"olacaktır :) Önceden fotoğraf modülüne yüklememiş <br>\r\n"
+"olduğunuz resimleri açtığınız her zaman önizleme <br>\r\n"
+"oluşuturulmuş olacak. Bilgi pencereleri oluşturulurken<br>\r\n"
+"hiçbir resim göremeyebilirsiniz. Umarım bu durumu <br>\r\n"
+"değiştirebiliriz :)"

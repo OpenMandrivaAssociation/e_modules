@@ -1,0 +1,383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marc Furtià  i Puig\\\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-23 11:50+0200\n"
+"PO-Revision-Date: 2014-05-29 07:29+0000\n"
+"Last-Translator: joancoll <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-30 05:34+0000\n"
+"X-Generator: Launchpad (build 17023)\n"
+"Language: ca\n"
+"X-Poedit-Bookmarks: -1,-1,1139,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: src/e_mod_main.c:67
+msgid "Config init failed"
+msgstr "Inicialització de Config ha fallat"
+
+#: src/e_mod_main.c:53 src/e_mod_main.c:60 src/e_mod_main.c:67
+#: src/e_mod_main.c:74 src/e_mod_main.c:81 src/e_mod_main.c:88
+msgid "Photo Module"
+msgstr "Mòdul Fotos"
+
+#: src/e_mod_main.c:53
+msgid "E Canvas init failed !"
+msgstr "Inicialització d'E Canvas ha fallat !"
+
+#: src/e_mod_main.c:60
+msgid "Theme init failed !"
+msgstr "Inicialització de Theme ha fallat !"
+
+#: src/e_mod_main.c:74
+msgid "Picture subsystem init failed"
+msgstr "Inicialització del subsistema Picture ha fallat"
+
+#: src/e_mod_main.c:81
+msgid "Popup warn subsystem init failed"
+msgstr "Inicialització del subsistema d'avisos Popup ha fallat"
+
+#: src/e_mod_main.c:88
+msgid "Popup info subsystem init failed"
+msgstr "Inicialització de subsistema d'informació Popup ha fallat"
+
+#: src/e_mod_main.c:181
+msgid "Photo"
+msgstr "Fotos"
+
+#: src/photo_config.c:65
+#, c-format
+msgid ""
+"<hilight>Photo module : Configuration Upgraded</hilight><br><br>Your "
+"configuration of photo module<br>has been upgraded<br>Your settings were "
+"removed<br>Sorry for the inconvenience<br><br>(%d -> %d)"
+msgstr ""
+"<hilight>Mòdul Fotos : Configuració actualitzada</hilight><br><br>La "
+"configuració del mòdul de fotos<br>ha estat actualitzada<br>Els seus "
+"paràmetres s'esborraran<br>Disculpi les molèsties<br><br>(%d -> %d)"
+
+#: src/photo_config.c:71 src/photo_config.c:85
+msgid "Photo Module version "
+msgstr "Versió del mòdul Fotos "
+
+#: src/photo_config.c:79
+#, c-format
+msgid ""
+"<hilight>Photo module : Configuration Downgraded</hilight><br><br>Your "
+"configuration of Photo module<br>has been downgraded<br>Your settings were "
+"removed<br>Sorry for the inconvenience<br><br>(%d ->%d)"
+msgstr ""
+"<hilight>Mòdul Fotos : Configuració recuperada</hilight><br><br>La "
+"configuració del mòdul Fotos<br>ha estat recuperada<br>Els seus paràmetres "
+"han estat esborrats<br>Disculpi les molèsties<br><br>(%d ->%d)"
+
+#: src/photo_config_dialog.c:64
+msgid "Photo Configuration"
+msgstr "Configuració Fotos"
+
+#: src/photo_config_dialog.c:220
+msgid "Picture directories"
+msgstr "Carpeta d'imatges"
+
+#: src/photo_config_dialog.c:235
+msgid "Add"
+msgstr "Afegeix"
+
+#: src/photo_config_dialog.c:237
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: src/photo_config_dialog.c:239
+msgid "Configure"
+msgstr "Configura"
+
+#: src/photo_config_dialog.c:242
+msgid "Reload picture directories"
+msgstr "Recarrega carpeta d'imatges"
+
+#: src/photo_config_dialog.c:245
+msgid "Stop loading"
+msgstr "Atura la càrrega"
+
+#: src/photo_config_dialog.c:252 src/photo_config_dialog_item.c:127
+msgid "Appearance"
+msgstr "Aparença"
+
+#: src/photo_config_dialog.c:254 src/photo_config_dialog_item.c:136
+msgid "Always show label"
+msgstr "Mostra sempre etiquetes"
+
+#: src/photo_config_dialog.c:256
+msgid "Nice transitions"
+msgstr "Transicions agradables"
+
+#: src/photo_config_dialog.c:262
+msgid "Default Mouse actions"
+msgstr "Accions predeterminades de ratolí"
+
+#: src/photo_config_dialog.c:264 src/photo_config_dialog_item.c:191
+msgid "Over"
+msgstr "Damunt"
+
+#: src/photo_config_dialog.c:268 src/photo_config_dialog_item.c:195
+msgid "Left"
+msgstr "Esquerra"
+
+#: src/photo_config_dialog.c:270 src/photo_config_dialog.c:276
+#: src/photo_config_dialog_item.c:197 src/photo_config_dialog_item.c:203
+msgid "click"
+msgstr "clic"
+
+#: src/photo_config_dialog.c:274 src/photo_config_dialog_item.c:201
+msgid "Middle"
+msgstr "Mig"
+
+#: src/photo_config_dialog.c:279 src/photo_config_dialog_item.c:142
+msgid "No"
+msgstr "No"
+
+#: src/photo_config_dialog.c:318
+msgid "Popups"
+msgstr "Finestres emergents"
+
+#: src/photo_config_dialog.c:320
+msgid "Picture loader popup"
+msgstr "Carregador d'imatges en finestra emergent"
+
+#: src/photo_config_dialog.c:323
+msgid "Never"
+msgstr "Mai"
+
+#: src/photo_config_dialog.c:325
+msgid "Summary"
+msgstr "Resum"
+
+#: src/photo_config_dialog.c:327
+msgid "Verbose"
+msgstr "Sortida detallada"
+
+#: src/photo_config_dialog.c:332
+msgid "Miscellaneous"
+msgstr "Miscel·lània"
+
+#: src/photo_config_dialog.c:334
+msgid "Remove generated backgrounds"
+msgstr "Elimina els fons generats"
+
+#: src/photo_config_dialog.c:338
+msgid "Pictures viewer"
+msgstr "Visor d'imatges"
+
+#: src/photo_config_dialog.c:344
+msgid "Images Quality"
+msgstr "Qualitat d'imatge"
+
+#: src/photo_config_dialog.c:346
+#, c-format
+msgid "%1.0f pix"
+msgstr "%1.0f pix"
+
+#: src/photo_config_dialog.c:353
+msgid "Automaticly reload directories"
+msgstr "Recarrega automàticament els directoris"
+
+#: src/photo_config_dialog.c:356
+msgid "when add / modify directory list"
+msgstr "quan s'afegeix / modifica llista de directoris"
+
+#: src/photo_config_dialog.h:36
+msgid "Show label"
+msgstr "Mostra l'etiqueta"
+
+#: src/photo_config_dialog.h:38
+msgid "Show informations"
+msgstr "Mostra informacions"
+
+#: src/photo_config_dialog.h:40 src/photo_menu.c:72
+msgid "Previous picture"
+msgstr "Imatge anterior"
+
+#: src/photo_config_dialog.h:42 src/photo_menu.c:68
+msgid "Next picture"
+msgstr "Imatge següent"
+
+#: src/photo_config_dialog.h:44
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/photo_config_dialog.h:46 src/photo_menu.c:92
+msgid "Set as background"
+msgstr "Estableix com a fons d'escriptori"
+
+#: src/photo_config_dialog.h:48
+msgid "Open viewer"
+msgstr "Obre visor"
+
+#: src/photo_config_dialog.h:50
+msgid "Show menu"
+msgstr "Mostra el menú"
+
+#: src/photo_config_dialog_dir.c:38
+msgid "Photo Directory Configuration"
+msgstr "Paràmetres de la carpeta de Fotos"
+
+#: src/photo_config_dialog_dir.c:118
+msgid "Directory"
+msgstr "Directori"
+
+#: src/photo_config_dialog_dir.c:127
+msgid "Loading options"
+msgstr "Carregant opcions"
+
+#: src/photo_config_dialog_dir.c:129
+msgid "Recursive"
+msgstr "Recursiu"
+
+#: src/photo_config_dialog_dir.c:131
+msgid "Read hidden files"
+msgstr "Llegeix fitxers ocults"
+
+#: src/photo_config_dialog_dir.c:158
+msgid "Photo Module Warning"
+msgstr "Avís mòdul Fotos"
+
+#: src/photo_config_dialog_item.c:48
+msgid "Photo Item Configuration"
+msgstr "Paràmetres dels elements de Fotos"
+
+#: src/photo_config_dialog_item.c:112
+msgid "Timer between pictures change"
+msgstr "Temporització entre canvi d'imatges"
+
+#: src/photo_config_dialog_item.c:114
+msgid "Activate"
+msgstr "Activa"
+
+#: src/photo_config_dialog_item.c:117
+#, c-format
+msgid "%1.0f seconds"
+msgstr "%1.0f segons"
+
+#: src/photo_config_dialog_item.c:129
+msgid "Alpha"
+msgstr "Alpha"
+
+#: src/photo_config_dialog_item.c:132
+#, c-format
+msgid "%1.0f"
+msgstr "%1.0f"
+
+#: src/photo_config_dialog_item.c:140
+msgid "Yes"
+msgstr "Sí"
+
+#: src/photo_config_dialog_item.c:144 src/photo_config_dialog_item.c:206
+msgid "Default setting"
+msgstr "Paràmetre per defecte"
+
+#: src/photo_config_dialog_item.c:189
+msgid "Mouse actions"
+msgstr "Accions de ratolí"
+
+#: src/photo_item.c:389 src/photo_item.c:452
+#, c-format
+msgid ""
+"<hilight>File %s doesn't exist.</hilight><br><br>This file is in the picture "
+"list, but it seems you removed<br>it from disk. It can't be set as "
+"background, sorry."
+msgstr ""
+"<hilight>El fitxer %s no existeix.</hilight><br><br>Aquest fitxer és a la "
+"llista d'imatges, però sembla que ha estat eliminat<br>del disc. No es pot "
+"establir com a fons d'escriptori, disculpi les molèsties."
+
+#: src/photo_item.c:392 src/photo_item.c:417 src/photo_item.c:455
+#: src/photo_item.c:475 src/photo_picture_local.c:259
+msgid "Photo Module Error"
+msgstr "Error mòdul Fotos"
+
+#: src/photo_item.c:413
+#, c-format
+msgid ""
+"<hilight>e17setroot needed</hilight><br><br>%s is not an edje file!<br>Photo "
+"module needs e17setroot util from e_utils package to set your picture as "
+"background. Please install it and try again."
+msgstr ""
+"<hilight>es necessita e17setroot</hilight><br><br>%s no és un fitxer "
+"edje!<br>El mòdul Fotos necessita e17setroot util del paquet e_utils per "
+"mostrar la imatge com a fons d'escriptori. Si us plau, instal·li i ho provi "
+"de nou."
+
+#: src/photo_item.c:472
+#, c-format
+msgid ""
+"<hilight>Viewer %s not found !</hilight><br><br>You can change the viewer "
+"for images in the Photo module configuration panel (Advanced view)"
+msgstr ""
+"<hilight>No s'ha trobat el visor %s !</hilight><br><br>Pot canviar el visor "
+"d'imatges al tauler de configuració del mòdul Fotos (Vista avançada)"
+
+#: src/photo_menu.c:41
+msgid "Module Settings"
+msgstr "Configuració del mòdul"
+
+#: src/photo_menu.c:47
+msgid "Settings"
+msgstr "Preferències"
+
+#: src/photo_menu.c:58
+msgid "Pause slideshow"
+msgstr "Pausa presentació"
+
+#: src/photo_menu.c:63
+msgid "Resume slideshow"
+msgstr "Continua presentació"
+
+#: src/photo_menu.c:78
+msgid "Historic"
+msgstr "Històric"
+
+#: src/photo_menu.c:88
+msgid "Picture informations"
+msgstr "Informacions de les imatges"
+
+#: src/photo_menu.c:96
+msgid "Open in"
+msgstr "Obre a"
+
+#: src/photo_picture_local.c:253
+#, c-format
+msgid ""
+"<hilight>Directory %s doesnt exists.</hilight><br><br>You can change the "
+"picture's folders in main configuration panel<br>They can be jpeg or "
+"png<br><br>After import, if you can remove these files and the pictures "
+"still can<br>be viewed, but you wont be able to set them as wallpaper "
+"anymore<br><br>"
+msgstr ""
+"<hilight>El directori %s no existeix.</hilight><br><br>Pot canviar les "
+"carpetes d'imatges al tauler principal de configuració<br>Poden ser jpeg o "
+"png<br><br>Després d'importar, encara que esborri aquests fitxers i imatges "
+"es podran<br>veure, però no les podrà utilitzar més com a fons "
+"d'escriptori<br><br>"
+
+#: src/photo_picture_local.c:591
+msgid "Photo Module Information"
+msgstr "Quan al mòdul Fotos"
+
+#: src/photo_picture_local.c:592
+msgid ""
+"<hilight>Creating thumbs</hilight><br><br>Some pictures are being thumbed in "
+"a <hilight>background task</hilight>.<br>It can take a while, but after, "
+"loading will be faster and lighter :)<br><br>Each time wou will load "
+"pictures that haven't been loaded in Photo module before,<br>they will be "
+"thumbed.<br><br>While creating popups, you will not be able to see any "
+"picture in Photo.<br>I hope i'll be able to change that :)"
+msgstr ""
+"<hilight>Creant miniatures</hilight><br><br>S'estan creant miniatures "
+"d'algunes imatges en una <hilight>tasca de fons</hilight>.<br>Pot tardar una "
+"mica, però després, seran més ràpides i lleugeres de carregar :)<br><br>Cada "
+"vegada que carregui imatges que no hagin estat carregades anteriorment al "
+"mòdul Fotos,<br>seran miniaturitzades.<br><br>Mentre s'estiguin creant,no "
+"podrà veure cap imatge a Fotos.<br>Esperem que siguem capaços de canviar "
+"això :)"

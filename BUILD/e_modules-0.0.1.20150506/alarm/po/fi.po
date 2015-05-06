@@ -1,0 +1,345 @@
+# Alarm module (e17), Finnish translation
+# This file is put in the public domain.
+# Jani väyrynen <janivayrynen@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Alarm module (e17)\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2015-05-06 11:34+0100\n"
+"PO-Revision-Date: 2008-01-23 01:50+0200\n"
+"Last-Translator: Jani väyrynen <janivayrynen@gmail.com>\n"
+"Language-Team: Finnish <janivayrynen@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/e_mod_config.c:52
+msgid "Alarm Configuration"
+msgstr "Hälytyksen asetukset"
+
+#: src/e_mod_config.c:152 src/e_mod_main.c:185
+msgid "Alarm"
+msgstr "Hälytys"
+
+#: src/e_mod_config.c:154 src/e_mod_config_alarm.c:187
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: src/e_mod_config.c:163
+msgid "Add"
+msgstr "Lisää"
+
+#: src/e_mod_config.c:165
+msgid "Delete"
+msgstr "Poista"
+
+#: src/e_mod_config.c:167
+msgid "Configure"
+msgstr "Muokkaa"
+
+#: src/e_mod_config.c:169
+msgid "Duplicate"
+msgstr "Kopioi"
+
+#: src/e_mod_config.c:223
+msgid "Alarm Options"
+msgstr "Hälytyksen valinnat"
+
+#: src/e_mod_config.c:235
+msgid "Show next alarm"
+msgstr "Näytä seuraava hälytys"
+
+#: src/e_mod_config.c:241
+msgid "Alarms Defaults"
+msgstr "Hälytysten oletukset"
+
+#: src/e_mod_config.c:243 src/e_mod_config_alarm.c:401
+msgid "Open popup"
+msgstr "Avaa ponnahdus"
+
+#: src/e_mod_config.c:246
+msgid "Run program"
+msgstr "Suorita ohjelma"
+
+#: src/e_mod_config.c:253
+msgid "Auto-Remove alarms"
+msgstr "Poista hälytykset automaattisesti"
+
+#: src/e_mod_config_alarm.c:68
+msgid "Alarm Configuration : Setup an alarm"
+msgstr "Hälytyksen asetukset : Aseta hälytys"
+
+#: src/e_mod_config_alarm.c:185
+msgid "Informations"
+msgstr "Tiedot"
+
+#: src/e_mod_config_alarm.c:189
+msgid "Name"
+msgstr "Nimi"
+
+#: src/e_mod_config_alarm.c:194
+msgid "Description"
+msgstr "Kuvaus"
+
+#: src/e_mod_config_alarm.c:204
+msgid "Schedule"
+msgstr "Ajastus"
+
+#: src/e_mod_config_alarm.c:206
+#, c-format
+msgid "%1.0f hour"
+msgstr "%1.0f. tunti"
+
+#: src/e_mod_config_alarm.c:209
+#, c-format
+msgid "%1.0f minute"
+msgstr "%1.0f. minuutti"
+
+#: src/e_mod_config_alarm.c:215
+msgid "Days of the week"
+msgstr "Viikonpäivä"
+
+#: src/e_mod_config_alarm.c:219
+msgid "Monday"
+msgstr "Maanantai"
+
+#: src/e_mod_config_alarm.c:221
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: src/e_mod_config_alarm.c:223
+msgid "Wenesday"
+msgstr "Keskiviikko"
+
+#: src/e_mod_config_alarm.c:225
+msgid "Thursday"
+msgstr "Tosrstai"
+
+#: src/e_mod_config_alarm.c:227
+msgid "Friday"
+msgstr "Perjantai"
+
+#: src/e_mod_config_alarm.c:229
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: src/e_mod_config_alarm.c:231
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: src/e_mod_config_alarm.c:236
+msgid "One day"
+msgstr "Yksi päivä"
+
+#: src/e_mod_config_alarm.c:240
+msgid "Date (YYYY/MM/DD)"
+msgstr "Päivämäärä (VVVV/KK/PP)"
+
+#: src/e_mod_config_alarm.c:245
+msgid "Today"
+msgstr "Tänään"
+
+#: src/e_mod_config_alarm.c:247
+msgid "Tomorrow"
+msgstr "Huomenna"
+
+#: src/e_mod_config_alarm.c:285
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>There is an error "
+"in the informations / schedule of your alarm"
+msgstr ""
+"<hilight>Virhe, hälytystä ei listätty!</hilight><br><br>Hälytyksesi "
+"tiedoissa / ajastuksessa oli virhe"
+
+#: src/e_mod_config_alarm.c:290
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>You have to enter "
+"a name for the alarm"
+msgstr ""
+"<hilight>Virhe, hälytystä ei lisätty!</hilight><br><br>Sinun täytyy antaa "
+"nimi hälytykselle"
+
+#: src/e_mod_config_alarm.c:295
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>You have to "
+"select at least one day in the week"
+msgstr ""
+"<hilight>Virhe, hälytystä ei lisätty!</hilight><br><br>Sinun täytyy valita "
+"ainakin yksi viikonpäivä"
+
+#: src/e_mod_config_alarm.c:300
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>The date you "
+"entered for the alarm has incorrect syntax<br><br>You have to respect this "
+"format :<br>   YYYY/MM/DD<br>YYYY is the year on 4 numbers<br>MM is the "
+"month on 2 numbers<br>DD is the day on 2 numbers<br>"
+msgstr ""
+"<hilight>Virhe, hälytystä ei lisätty!</hilight><br><br>Päivämäärässä, jonka "
+"annoit hälytykselle, on virheellinen muoto<br><br>Sinun täytyy noudattaa "
+"tätä formaattia:<br>   VVVV/KK/PP<br>VVVV on 4-numeroinen vuosiluku<br>KK on "
+"2-numeroinen kuukausi<br>PP on 2-numeroinen päivä<br>"
+
+#: src/e_mod_config_alarm.c:310
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>The date you "
+"entered is before now"
+msgstr ""
+"<hilight>Virhe, hälytystä ei lisätty!</hilight><br><br>Päivämäärä, jonka "
+"annoit, on ennen tätä hetkeä"
+
+#: src/e_mod_config_alarm.c:314 src/e_mod_main.c:424
+msgid "Alarm Module Error"
+msgstr "Hälytysmoduulin virhe"
+
+#: src/e_mod_config_alarm.c:351 src/e_mod_config_alarm.c:439
+msgid "Test this alarm"
+msgstr "Testaa tämä hälytys"
+
+#: src/e_mod_config_alarm.c:379
+msgid "Ring Options"
+msgstr "Soiton valinnat"
+
+#: src/e_mod_config_alarm.c:381
+msgid "Remove alarm"
+msgstr "Poista hälytys"
+
+#: src/e_mod_config_alarm.c:388 src/e_mod_config_alarm.c:408
+msgid "No [default]"
+msgstr "Ei [oletus]"
+
+#: src/e_mod_config_alarm.c:390 src/e_mod_config_alarm.c:410
+msgid "Yes"
+msgstr "Kyllä"
+
+#: src/e_mod_config_alarm.c:395 src/e_mod_config_alarm.c:415
+#: src/e_mod_config_alarm.c:426
+msgid "No"
+msgstr "Ei"
+
+#: src/e_mod_config_alarm.c:397 src/e_mod_config_alarm.c:417
+msgid "Yes [default]"
+msgstr "Kyllä [oletus]"
+
+#: src/e_mod_config_alarm.c:421
+msgid "Run a program"
+msgstr "Suorita ohjelma"
+
+#: src/e_mod_config_alarm.c:428
+msgid "Run default one"
+msgstr "Suorita oletusohjelma"
+
+#: src/e_mod_config_alarm.c:430
+msgid "Run this program"
+msgstr "Suorita tämä ohjelma"
+
+#: src/e_mod_config_alarm.c:475
+msgid ""
+"<hilight>Alarm test SUCCEED !</hilight><br><br>But DONT FORGET to ACTIVATE "
+"the alarms<br>via the 'Active' check button on the<br>main Alarm "
+"configuration panel."
+msgstr ""
+"<hilight>Hälytystesti ONNISTUI!</hilight><br><br>ÄLÄ KUITENKAAN UNOHDA "
+"AKTIVOIDA hälytyksiä<br>Hälytyksen pääasetuspaneelin<br>'Aktivoi'-"
+"painikkeella."
+
+#: src/e_mod_config_alarm.c:481
+msgid "<hilight>Alarm test SUCCEED !</hilight>"
+msgstr "<hilight>Hälytystesti ONNISTUI!</hilight>"
+
+#: src/e_mod_config_alarm.c:486
+msgid "<hilight>Alarm test FAILED !</hilight>"
+msgstr "<hilight>Hälytystesti EPÄONNISTUI!</hilight>"
+
+#: src/e_mod_config_alarm.c:488
+msgid "Alarm Module Test Report"
+msgstr "Hälytysmoduulin testiraportti"
+
+#: src/e_mod_main.c:396
+#, c-format
+msgid "<hilight>Alarm : %s</hilight><br><br>%s"
+msgstr "<hilight>Hälytys : %s</hilight><br><br>%s"
+
+#: src/e_mod_main.c:399
+msgid "Alarm Module Popup"
+msgstr "Hälytysmoduulin ponnahdus"
+
+#: src/e_mod_main.c:422
+msgid ""
+"<hilight>Failed !</hilight><br><br>Alarm couln't launch the program you "
+"specified"
+msgstr ""
+"<hilight>Epäonnistui!</hilight><br><br>Hälytys ei voinut käynnistää "
+"ohjelmaa, jonka määritit"
+
+#: src/e_mod_main.c:656 src/e_mod_main.c:846
+#, c-format
+msgid "Snooze %s"
+msgstr "Torkku hälytykselle %s"
+
+#: src/e_mod_main.c:660
+#, c-format
+msgid "%1.0f hours"
+msgstr "%1.0f tuntia"
+
+#: src/e_mod_main.c:663
+#, c-format
+msgid "%1.0f minutes"
+msgstr "%1.0f minuuttia"
+
+#: src/e_mod_main.c:670
+msgid "Ok"
+msgstr "OK"
+
+#: src/e_mod_main.c:671
+msgid "Close"
+msgstr "Sulje"
+
+#: src/e_mod_main.c:821
+msgid "Add an alarm"
+msgstr "Lisää hälytys"
+
+#: src/e_mod_main.c:828
+msgid "Settings"
+msgstr ""
+
+#: src/e_mod_main.c:854
+#, c-format
+msgid "Snooze %.14s of %.2d:%.2d"
+msgstr "Torkku %.14s. %.2d:%.2d"
+
+#: src/e_mod_main.c:868
+msgid "Snooze (No alarm to delay)"
+msgstr "Torkku (Ei hälytyksiä viivästettäväksi)"
+
+#: src/e_mod_main.c:1050
+#, c-format
+msgid ""
+"<hilight>Alarm module : Configuration Upgraded</hilight><br><br>Your "
+"configuration of alarm module<br>has been upgraded<br>Your settings and "
+"alarms were removed<br>Sorry for the inconvenience<br><br>(%d -> %d)"
+msgstr ""
+"<hilight>Hälytysmoduuli : Asetukset päivitetty</"
+"hilight><br><br>Hälytysmoduulisi asetukset<br>on päivitetty<br>Asetuksesi ja "
+"hälytyksesi poistettiin<br>Pahoittelut aiheutetusta vaivasta<br><br>(%d -> "
+"%d)"
+
+#: src/e_mod_main.c:1056 src/e_mod_main.c:1070
+msgid "Alarm Module version "
+msgstr "Hälytysmoduulin versio "
+
+#: src/e_mod_main.c:1064
+#, c-format
+msgid ""
+"<hilight>Alarm module : Configuration Downgraded</hilight><br><br>Your "
+"configuration of Alarm module<br>has been downgraded<br>Your settings and "
+"alarms were removed<br>Sorry for the inconvenience<br><br>(%d ->%d)"
+msgstr ""
+"<hilight>Hälytysmoduuli : Asetukset alipäivitetty</"
+"hilight><br><br>Hälytysmoduulisi asetukset<br>on alipäivitetty<br>Asetuksesi "
+"ja hälytyksesi poistettiin<br>Pahoittelut aiheutetusta vaivasta<br><br>(%d -"
+"> %d)"
+
+#~ msgid "Configuration"
+#~ msgstr "Asetukset"

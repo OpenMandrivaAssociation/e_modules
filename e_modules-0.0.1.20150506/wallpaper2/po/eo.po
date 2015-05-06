@@ -1,0 +1,81 @@
+# translation of eo.po to
+# This file is put in the public domain.
+#
+# Olivier M <olivierweb@nospam.ifrance.com>, 2006-2007.
+# Olivier <eliovir@nospam.gmail.com>, 2009, 2010.
+# Eliovir <eliovir@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: eo\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2014-04-24 23:22+0000\n"
+"Last-Translator: Eliovir <Unknown>\n"
+"Language-Team: General\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-04-25 06:13+0000\n"
+"X-Generator: Launchpad (build 16985)\n"
+"X-Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"X-Poedit-SearchPath-0: /usr/portage/distfiles/cvs-src/e17/apps/e/src\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Esperanto\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Ekranfono de etoso"
+
+#: src/e_int_config_wallpaper.c:1106
+msgid "Loading files..."
+msgstr "Ŝargante dosierojn..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Agordoj de ekranfono"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "Bone"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Apliki"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Fermi"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Ĉiuj labortabloj"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Ĉi tiu labortablo"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Ĉi tiu ekrano"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Aldoni"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Forigi"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Aspekto"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+msgid "Wallpaper 2"
+msgstr "Tapeto"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Interna"

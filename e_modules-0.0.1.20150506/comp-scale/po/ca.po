@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marc Furtià  i Puig\\\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-06-20 11:30+0200\n"
+"PO-Revision-Date: 2014-05-26 21:00+0000\n"
+"Last-Translator: joancoll <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-27 05:40+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"Language: ca\n"
+"X-Poedit-Bookmarks: -1,-1,1139,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: src/bin/gui.c:256
+msgid "Unable to grab keyboard, exiting...\n"
+msgstr "No es pot capturar el teclat, sortint...\n"
+
+#: src/bin/main.c:26
+#, c-format
+msgid "Unable to init Eina!"
+msgstr "No es pot inicialitzar Eina!"
+
+#: src/bin/main.c:32
+#, c-format
+msgid "Unable to init ecore\n"
+msgstr "No es pot inicialitzar ecore\n"
+
+#: src/bin/main.c:38
+#, c-format
+msgid "Unable to init efreet"
+msgstr "No es pot inicialitzar efreet"
+
+#: src/bin/main.c:43
+#, c-format
+msgid "Unable to init elementary"
+msgstr "No es pot inicialitzar elementary"
+
+#: src/bin/main.c:50
+msgid "Unable to initialize GUI!"
+msgstr "No es pot inicialitzar GUI!"
+
+#: src/bin/main.c:56
+msgid "Unable to initialize Polkit Agent interface!"
+msgstr "No es pot inicialitzar la interfície Polkit Agent!"

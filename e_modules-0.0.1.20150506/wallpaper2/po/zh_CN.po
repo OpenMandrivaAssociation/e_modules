@@ -1,0 +1,81 @@
+# Enlightenment 0.17 Simplified Chinese Translation
+# This file is put in the public domain.
+# Emfox Zhou <emfox@zju.edu.cn>, 2005.
+# gao stone <gaoghy@gmail.com>, 2008.
+# Luo Jie <lililjlj@gmail.com>, 2009.
+# eexpress <exp.exp@gmail.com>, 2009.
+# 玉堂白鹤 <yjwork.xfce@gmail.com>, 2010
+# squeeze <squeeze@189.cn>, 2012.
+# Yunqiang Su <wzssyqa@gmail.com>, 2012.
+# Aron Xu <happyaron.xu@gmail.com>, 2008, 2009, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment 0.17\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2012-12-20 22:40+0800\n"
+"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "主题壁纸"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "正在删除文件..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "壁纸设置"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "确定"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "应用"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "关闭"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "所有桌面"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "这个桌面"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "这个屏幕"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "添加"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "删除"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "外观"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "壁纸"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "内部"

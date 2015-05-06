@@ -1,0 +1,88 @@
+# Galician translation for enlightenment
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the enlightenment package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-08-24 11:50+0200\n"
+"PO-Revision-Date: 2013-08-25 09:42+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"Language-Team: Galician <gl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-08-26 04:51+0000\n"
+"X-Generator: Launchpad (build 16738)\n"
+
+#: src/module/e_mod_config.c:122
+msgid "EWeather Configuration"
+msgstr "Configuración do EWeather"
+
+#: src/module/e_mod_config.c:181
+msgid "Poll Time"
+msgstr "Tempo de actualización"
+
+#: src/module/e_mod_config.c:184
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f minutos"
+
+#: src/module/e_mod_config.c:192
+msgid "Select a data source"
+msgstr "Seleccione a orixe dos datos"
+
+#: src/module/e_mod_config.c:207
+msgid "Units Settings"
+msgstr "Axuste de unidades"
+
+#: src/module/e_mod_config.c:211
+msgid "(°F) Fahrenheit"
+msgstr "(°F) Fahrenheit"
+
+#: src/module/e_mod_config.c:213
+msgid "(°C) Celsius"
+msgstr "(°C) Celsius"
+
+#: src/module/e_mod_config.c:222
+msgid "Yahoo Forecasts Code"
+msgstr "Código das predicións meteorolóxicas de Yahoo"
+
+#: src/module/e_mod_config.c:227
+msgid "Yahoo Forecasts Code/US Zip Code"
+msgstr "Código das predicións meteorolóxicas de Yahoo/Código US Zip"
+
+#: src/module/e_mod_config.c:232
+msgid "To find the code for your area, go to:"
+msgstr "Para atopar o código para a súa área, vaia a:"
+
+#: src/module/e_mod_config.c:234
+#, c-format
+msgid "%s, find your area, and look at the URL"
+msgstr "%s, atope a súa área, e vexa o URL"
+
+#: src/module/e_mod_config.c:243
+msgid "Google Forecasts Code"
+msgstr "Código das predicións meteorolóxicas de Google"
+
+#: src/module/e_mod_config.c:248
+msgid "Google Forecasts City Code"
+msgstr "Código da cidade nas predicións meteorolóxicas de Google"
+
+#: src/module/e_mod_config.c:253
+msgid "Specify the name of your city"
+msgstr "Especifique o nome da súa cidade"
+
+#: src/module/e_mod_config.c:255
+msgid " with extra information like the state or the country"
+msgstr " con información adicional, como a provincia/estado ou o país"
+
+#: src/module/e_mod_gadcon.c:105 src/module/e_mod_main.c:42
+msgid "EWeather"
+msgstr "EWeather"
+
+#: src/module/e_mod_gadcon.c:149
+msgid "Settings"
+msgstr "Axustes"

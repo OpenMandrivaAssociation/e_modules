@@ -1,0 +1,80 @@
+# Spanish translation for Enlightenment.
+# This file is put in the public domain.
+# Jose Biosca Martin <danky@zone-sys.net>, 2005.
+# Francisco Perez Lopez, 2008.
+# Federico Vera <Unknown>, 2008.
+# DiegoJ <diegojromerolopez@gmail.com>, 2009.
+# Aníbal Garrido <khany@member.trisquel.info>, 2012.
+# Adrián Arévalo <adri58@gmail.com>, 2012, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Enlightenment 0.17\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2013-07-05 10:28+0100\n"
+"Last-Translator: Adrián Arévalo <adri58@gmail.com>\n"
+"Language-Team: Español; Castellano <>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: /home/adrian/trunk/e/\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Tema del fondo de pantalla"
+
+#: src/e_int_config_wallpaper.c:1106
+msgid "Loading files..."
+msgstr "Cargando archivos..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Opciones de fondo de pantalla"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "Aceptar"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Todos los escritorios"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Este escritorio"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Esta pantalla"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Añadir"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Eliminar"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Apariencia"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+msgid "Wallpaper 2"
+msgstr "Fondo de pantalla 2"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Interno"

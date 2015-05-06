@@ -1,0 +1,79 @@
+# translation of nl.po to Nederlands
+# Nederlands translation of enlightenment.po to .
+#
+# aboe <niels.abspoel@wanadoo.nl>, 2005.
+# Niels Abspoel <niels.abspoel@wanadoo.nl>, 2005.
+# Heimen Stoffels <vistausss@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2011-12-06 00:23+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-08-27 10:00+0000\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+msgid "Theme Wallpaper"
+msgstr "Thema-achtergrond"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "Bezig met verwijderen van bestanden..."
+
+#: src/e_int_config_wallpaper.c:1174
+msgid "Wallpaper Settings"
+msgstr "Achtergrond"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "OK"
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Toepassen"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Sluiten"
+
+#: src/e_int_config_wallpaper.c:1252
+msgid "All Desktops"
+msgstr "Alle bureaubladen"
+
+#: src/e_int_config_wallpaper.c:1258
+msgid "This Desktop"
+msgstr "Dit bureaublad"
+
+#: src/e_int_config_wallpaper.c:1263
+msgid "This Screen"
+msgstr "Dit scherm"
+
+#: src/e_int_config_wallpaper.c:1276
+msgid "Add"
+msgstr "Toevoegen"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Wis"
+
+#: src/e_mod_main.c:25
+msgid "Look"
+msgstr "Uiterlijk"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "Achtergrond"
+
+#: src/e_mod_main.c:27
+msgid "Internal"
+msgstr "Intern"

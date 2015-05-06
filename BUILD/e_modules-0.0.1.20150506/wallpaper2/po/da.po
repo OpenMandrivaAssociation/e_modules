@@ -1,0 +1,84 @@
+# Danish translation for Enlightenment (E17).
+# This file is put in the public domain.
+# Martin Geisler <mgeisler@mgeisler.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Enlightenment\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-06-17 09:26-0400\n"
+"PO-Revision-Date: 2009-12-31 01:44+0000\n"
+"Last-Translator: nanker <Unknown>\n"
+"Language-Team: Danish\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-01-01 05:02+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/e_int_config_wallpaper.c:723 src/e_int_config_wallpaper.c:916
+#, fuzzy
+msgid "Theme Wallpaper"
+msgstr "Tema Wallpaper"
+
+#: src/e_int_config_wallpaper.c:1106
+#, fuzzy
+msgid "Loading files..."
+msgstr "Sletning af filer ..."
+
+#: src/e_int_config_wallpaper.c:1174
+#, fuzzy
+msgid "Wallpaper Settings"
+msgstr "Tapetindstillinger"
+
+#: src/e_int_config_wallpaper.c:1189
+msgid "OK"
+msgstr "O.k."
+
+#: src/e_int_config_wallpaper.c:1195
+msgid "Apply"
+msgstr "Anvend"
+
+#: src/e_int_config_wallpaper.c:1201
+msgid "Close"
+msgstr "Luk"
+
+#: src/e_int_config_wallpaper.c:1252
+#, fuzzy
+msgid "All Desktops"
+msgstr "Alle Desktops"
+
+#: src/e_int_config_wallpaper.c:1258
+#, fuzzy
+msgid "This Desktop"
+msgstr "Dette Desktop"
+
+#: src/e_int_config_wallpaper.c:1263
+#, fuzzy
+msgid "This Screen"
+msgstr "Denne skærm"
+
+#: src/e_int_config_wallpaper.c:1276
+#, fuzzy
+msgid "Add"
+msgstr "Tilføj"
+
+#: src/e_int_config_wallpaper.c:1281
+msgid "Delete"
+msgstr "Slet"
+
+#: src/e_mod_main.c:25
+#, fuzzy
+msgid "Look"
+msgstr "se"
+
+#: src/e_mod_main.c:26 src/e_mod_main.c:30 src/e_mod_main.c:94
+#, fuzzy
+msgid "Wallpaper 2"
+msgstr "Wallpaper"
+
+#: src/e_mod_main.c:27
+#, fuzzy
+msgid "Internal"
+msgstr "Intern"

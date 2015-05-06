@@ -1,0 +1,1164 @@
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.41882
++ umask 022
++ cd /home/colin/Development/ELIGHT/e_modules/BUILD
++ '[' 1 -eq 1 ']'
++ '[' 1 -eq 1 ']'
++ '[' 1 -eq 1 ']'
++ cd /home/colin/Development/ELIGHT/e_modules/BUILD
++ rm -rf e_modules-0.0.1.20150506
++ /bin/tar -xf -
++ /usr/bin/xz -dc /home/colin/Development/ELIGHT/e_modules/e_modules-0.0.1.20150506.tar.xz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd e_modules-0.0.1.20150506
++ rm -fr comp-scale eenvader.fractal empris engage everything-websearch packagekit photo
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.41882
++ umask 022
++ cd /home/colin/Development/ELIGHT/e_modules/BUILD
++ cd e_modules-0.0.1.20150506
++ '[' 1 -eq 1 ']'
++ '[' 1 -eq 1 ']'
+++ find alarm cpu desksanity diskio edgar elev8 elfe everything-places eweather forecasts mail mem moon mpdule net news penguins places share tclock wallpaper2 wlan -type d
+++ awk -F/ '{print $1}'
+++ sort
+++ uniq
++ for i in '`find * -type d|awk -F'\''/'\'' '\''{print $1}'\''|sort|uniq`'
++ pushd alarm
+~/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm ~/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506
++ autoreconf -fi
+Copying file ABOUT-NLS
+Copying file config.rpath
+Copying file m4/codeset.m4
+Copying file m4/gettext.m4
+Copying file m4/glibc21.m4
+Copying file m4/iconv.m4
+Copying file m4/intdiv0.m4
+Copying file m4/intmax.m4
+Copying file m4/inttypes-pri.m4
+Copying file m4/inttypes.m4
+Copying file m4/inttypes_h.m4
+Copying file m4/isc-posix.m4
+Copying file m4/lcmessage.m4
+Copying file m4/lib-ld.m4
+Copying file m4/lib-link.m4
+Copying file m4/lib-prefix.m4
+Copying file m4/longdouble.m4
+Copying file m4/longlong.m4
+Copying file m4/nls.m4
+Copying file m4/po.m4
+Copying file m4/printf-posix.m4
+Copying file m4/progtest.m4
+Copying file m4/signed.m4
+Copying file m4/size_max.m4
+Copying file m4/stdint_h.m4
+Copying file m4/uintmax_t.m4
+Copying file m4/ulonglong.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/xsize.m4
+Copying file mkinstalldirs
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+Copying file po/remove-potcdate.sin
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+configure.ac:11: installing './compile'
+configure.ac:9: installing './config.guess'
+configure.ac:9: installing './config.sub'
+configure.ac:13: installing './install-sh'
+configure.ac:13: installing './missing'
+Makefile.am:29: warning: '%'-style pattern rules are a GNU make extension
+src/Makefile.am:3: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/Makefile.am: installing './depcomp'
++ CFLAGS='-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC'
++ export CFLAGS
++ CXXFLAGS='-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC'
++ export CXXFLAGS
++ FFLAGS='-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC'
++ export FFLAGS
++ LDFLAGS=' -Wl,--no-undefined '
++ export LDFLAGS
++ CROSSCOMPILE='--target=x86_64-mandriva-linux-gnu --host=x86_64-mandriva-linux-gnu --build=x86_64-mandriva-linux-gnu'
++ export CROSSCOMPILE
+++ find . -name config.guess -o -name config.sub
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.sub
++ '[' -f /usr/share/libtool/config/config.sub ']'
++ /bin/rm -f ./config.sub
+++ basename ./config.sub
++ /bin/cp -fv /usr/share/libtool/config//config.sub ./config.sub
+'/usr/share/libtool/config//config.sub' -> './config.sub'
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.guess
++ '[' -f /usr/share/libtool/config/config.guess ']'
++ /bin/rm -f ./config.guess
+++ basename ./config.guess
++ /bin/cp -fv /usr/share/libtool/config//config.guess ./config.guess
+'/usr/share/libtool/config//config.guess' -> './config.guess'
++ CONFIGURE_TOP=.
++ cd .
++ '[' '!' -f configure.in -a '!' -f configure.ac ']'
++ libtoolize --copy --force
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
++ '[' -f ./configure.in -o -f ./configure.ac ']'
++ CONFIGURE_XPATH='--x-includes=/usr/include --x-libraries=/usr/lib64'
++ ./configure --target=x86_64-mandriva-linux-gnu --host=x86_64-mandriva-linux-gnu --build=x86_64-mandriva-linux-gnu --disable-silent-rules --disable-dependency-tracking --disable-rpath --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --x-includes=/usr/include --x-libraries=/usr/lib64 --disable-static
+checking build system type... x86_64-mandriva-linux-gnu
+checking host system type... x86_64-mandriva-linux-gnu
+checking for x86_64-mandriva-linux-gnu-gcc... x86_64-mandriva-linux-gnu-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... yes
+checking for strerror in -lcposix... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of x86_64-mandriva-linux-gnu-gcc... none
+checking for x86_64-mandriva-linux-gnu-gcc... (cached) x86_64-mandriva-linux-gnu-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... (cached) yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... (cached) none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... x86_64-mandriva-linux-gnu-gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for an ANSI C-conforming const... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by x86_64-mandriva-linux-gnu-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-mandriva-linux-gnu file names to x86_64-mandriva-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-mandriva-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-mandriva-linux-gnu-objdump... x86_64-mandriva-linux-gnu-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-mandriva-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-mandriva-linux-gnu-ar... x86_64-mandriva-linux-gnu-ar
+checking for archiver @FILE support... @
+checking for x86_64-mandriva-linux-gnu-strip... x86_64-mandriva-linux-gnu-strip
+checking for x86_64-mandriva-linux-gnu-ranlib... x86_64-mandriva-linux-gnu-ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-mandriva-linux-gnu-gcc object... ok
+checking for sysroot... no
+checking for x86_64-mandriva-linux-gnu-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-mandriva-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-mandriva-linux-gnu-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-mandriva-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-mandriva-linux-gnu-gcc static flag -static works... no
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... yes
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-mandriva-linux-gnu-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for x86_64-mandriva-linux-gnu-pkg-config... /usr/bin/x86_64-mandriva-linux-gnu-pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for E... yes
+checking for EDJE... yes
+checking Which edje_cc to use... /usr/bin/edje_cc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating e_modules-alarm.spec
+config.status: creating module.desktop
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands
++ make
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/missing aclocal-1.14 -I m4
+ cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/missing automake-1.14 --gnu
+Makefile.am:29: warning: '%'-style pattern rules are a GNU make extension
+src/Makefile.am:3: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/missing autoconf
+/bin/sh ./config.status --recheck
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --target=x86_64-mandriva-linux-gnu --host=x86_64-mandriva-linux-gnu --build=x86_64-mandriva-linux-gnu --disable-silent-rules --disable-dependency-tracking --disable-rpath --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --x-includes=/usr/include --x-libraries=/usr/lib64 --disable-static build_alias=x86_64-mandriva-linux-gnu host_alias=x86_64-mandriva-linux-gnu target_alias=x86_64-mandriva-linux-gnu CFLAGS=-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC LDFLAGS= -Wl,--no-undefined  --no-create --no-recursion
+checking build system type... x86_64-mandriva-linux-gnu
+checking host system type... x86_64-mandriva-linux-gnu
+checking for x86_64-mandriva-linux-gnu-gcc... x86_64-mandriva-linux-gnu-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... yes
+checking for strerror in -lcposix... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of x86_64-mandriva-linux-gnu-gcc... none
+checking for x86_64-mandriva-linux-gnu-gcc... (cached) x86_64-mandriva-linux-gnu-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... (cached) yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... (cached) none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... x86_64-mandriva-linux-gnu-gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for an ANSI C-conforming const... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by x86_64-mandriva-linux-gnu-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-mandriva-linux-gnu file names to x86_64-mandriva-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-mandriva-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-mandriva-linux-gnu-objdump... x86_64-mandriva-linux-gnu-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-mandriva-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-mandriva-linux-gnu-ar... x86_64-mandriva-linux-gnu-ar
+checking for archiver @FILE support... @
+checking for x86_64-mandriva-linux-gnu-strip... x86_64-mandriva-linux-gnu-strip
+checking for x86_64-mandriva-linux-gnu-ranlib... x86_64-mandriva-linux-gnu-ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-mandriva-linux-gnu-gcc object... ok
+checking for sysroot... no
+checking for x86_64-mandriva-linux-gnu-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-mandriva-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-mandriva-linux-gnu-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-mandriva-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-mandriva-linux-gnu-gcc static flag -static works... no
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... yes
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-mandriva-linux-gnu-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for x86_64-mandriva-linux-gnu-pkg-config... /usr/bin/x86_64-mandriva-linux-gnu-pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for E... yes
+checking for EDJE... yes
+checking Which edje_cc to use... /usr/bin/edje_cc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+ /bin/sh ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating e_modules-alarm.spec
+config.status: creating module.desktop
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm'
+Making all in src
+make[2]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina     -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC -c -o e_mod_main.lo e_mod_main.c
+libtool: compile:  x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 -fPIC -c e_mod_main.c  -fPIC -DPIC -o .libs/e_mod_main.o
+e_mod_main.c: In function '_alarm_snooze':
+e_mod_main.c:651:4: warning: passing argument 1 of 'e_dialog_new' makes pointer from integer without a cast [enabled by default]
+    dia = e_dialog_new(e_container_current_get(e_manager_current_get()), "Alarm", "_e_modules_alarm_snooze_dialog");
+    ^
+In file included from /usr/include/enlightenment/e_includes.h:59:0,
+                 from /usr/include/enlightenment/e.h:281,
+                 from e_mod_main.c:1:
+/usr/include/enlightenment/e_dialog.h:31:16: note: expected 'struct E_Comp *' but argument is of type 'int'
+ EAPI E_Dialog *e_dialog_new                      (E_Comp *c, const char *name, const char *class);
+                ^
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina     -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC -c -o e_mod_config.lo e_mod_config.c
+libtool: compile:  x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 -fPIC -c e_mod_config.c  -fPIC -DPIC -o .libs/e_mod_config.o
+e_mod_config.c: In function 'alarm_config_module':
+e_mod_config.c:52:9: warning: passing argument 1 of 'e_config_dialog_new' makes pointer from integer without a cast [enabled by default]
+         D_("Alarm Configuration"), "Alarm", "_e_modules_alarm_config_dialog", buf, 0, v, NULL);
+         ^
+In file included from /usr/include/enlightenment/e_includes.h:74:0,
+                 from /usr/include/enlightenment/e.h:281,
+                 from e_mod_config.c:1:
+/usr/include/enlightenment/e_config_dialog.h:58:23: note: expected 'struct E_Comp *' but argument is of type 'int'
+ EAPI E_Config_Dialog *e_config_dialog_new(E_Comp *c, const char *title, const char *name, const char *class, const char *icon, int icon_size, E_Config_Dialog_View *view, void *data);
+                       ^
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina     -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC -c -o e_mod_config_alarm.lo e_mod_config_alarm.c
+libtool: compile:  x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 -fPIC -c e_mod_config_alarm.c  -fPIC -DPIC -o .libs/e_mod_config_alarm.o
+e_mod_config_alarm.c: In function 'alarm_config_alarm':
+e_mod_config_alarm.c:68:9: warning: passing argument 1 of 'e_config_dialog_new' makes pointer from integer without a cast [enabled by default]
+         D_("Alarm Configuration : Setup an alarm"), "Alarm", "_e_modules_alarm_alarm_config_dialog", buf, 0, v, al);
+         ^
+In file included from /usr/include/enlightenment/e_includes.h:74:0,
+                 from /usr/include/enlightenment/e.h:281,
+                 from e_mod_config_alarm.c:1:
+/usr/include/enlightenment/e_config_dialog.h:58:23: note: expected 'struct E_Comp *' but argument is of type 'int'
+ EAPI E_Config_Dialog *e_config_dialog_new(E_Comp *c, const char *title, const char *name, const char *class, const char *icon, int icon_size, E_Config_Dialog_View *view, void *data);
+                       ^
+e_mod_config_alarm.c: In function '_common_create_widgets':
+e_mod_config_alarm.c:213:4: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+    rg = e_widget_radio_group_new((int*)&(cfdata->sched.type));
+    ^
+/bin/sh ../libtool  --tag=CC   --mode=link x86_64-mandriva-linux-gnu-gcc  -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC -module -avoid-version -Wl,--no-undefined  -o module.la -rpath /usr/lib64/enlightenment/modules/alarm/linux-gnu-x86_64-ver-serious-0.19 e_mod_main.lo e_mod_config.lo e_mod_config_alarm.lo -levas -lecore -lecore_x -lecore_evas -lecore_con -lecore_ipc -lecore_file -leet -ledje -lefreet -lefreet_mime -lefreet_trash -leina -lpthread -leldbus -leio -leo -lelementary -lefl -leina -lpthread -leet -levas -lecore -lecore_evas -lecore_file -lecore_input -ledje -leo -lethumb_client -lemotion -lecore_imf -lecore_con -leldbus -lefreet -lefreet_mime -lefreet_trash -leio -ldl -lm -lemotion -leeze  
+libtool: link: x86_64-mandriva-linux-gnu-gcc -shared  -fPIC -DPIC  .libs/e_mod_main.o .libs/e_mod_config.o .libs/e_mod_config_alarm.o   -lecore_ipc /usr/lib64/libelementary.so -lecore_sdl -lecore_x -lefl -leina -lpthread -leet -levas -lecore -lecore_evas -lecore_file -lecore_input -ledje -leo -lethumb_client -lecore_imf -lecore_con -leldbus -lefreet -lefreet_mime -lefreet_trash -leio -ldl -lm -lemotion -leeze  -O2 -Wl,--no-undefined -Wl,--warn-unresolved-symbols   -pthread -Wl,-soname -Wl,module.so -o .libs/module.so
+e_mod_main.c:890: warning: undefined reference to 'e_object_del'
+e_mod_main.c:710: warning: undefined reference to 'e_object_del'
+e_mod_main.c:710: warning: undefined reference to 'e_object_del'
+e_mod_main.c:178: warning: undefined reference to 'e_gadcon_client_aspect_set'
+e_mod_main.c:195: warning: undefined reference to 'e_module_dir_get'
+e_mod_main.c:651: warning: undefined reference to 'e_manager_current_get'
+e_mod_main.c:651: warning: undefined reference to 'e_container_current_get'
+e_mod_main.c:651: warning: undefined reference to 'e_dialog_new'
+e_mod_main.c:654: warning: undefined reference to 'e_win_evas_get'
+e_mod_main.c:657: warning: undefined reference to 'e_dialog_title_set'
+e_mod_main.c:659: warning: undefined reference to 'e_widget_list_add'
+e_mod_main.c:660: warning: undefined reference to 'e_widget_slider_add'
+e_mod_main.c:662: warning: undefined reference to 'e_widget_list_object_append'
+e_mod_main.c:663: warning: undefined reference to 'e_widget_slider_add'
+e_mod_main.c:665: warning: undefined reference to 'e_widget_list_object_append'
+e_mod_main.c:667: warning: undefined reference to 'e_widget_size_min_get'
+e_mod_main.c:668: warning: undefined reference to 'e_dialog_content_set'
+e_mod_main.c:670: warning: undefined reference to 'e_dialog_button_add'
+e_mod_main.c:671: warning: undefined reference to 'e_dialog_button_add'
+e_mod_main.c:674: warning: undefined reference to 'e_win_centered_set'
+e_mod_main.c:675: warning: undefined reference to 'e_dialog_show'
+e_mod_main.c:819: warning: undefined reference to 'e_menu_new'
+e_mod_main.c:820: warning: undefined reference to 'e_menu_item_new'
+e_mod_main.c:821: warning: undefined reference to 'e_menu_item_label_set'
+e_mod_main.c:822: warning: undefined reference to 'e_menu_item_callback_set'
+e_mod_main.c:824: warning: undefined reference to 'e_menu_item_icon_edje_set'
+e_mod_main.c:825: warning: undefined reference to 'e_menu_item_new'
+e_mod_main.c:826: warning: undefined reference to 'e_menu_item_separator_set'
+e_mod_main.c:827: warning: undefined reference to 'e_menu_item_new'
+e_mod_main.c:828: warning: undefined reference to 'e_menu_item_label_set'
+e_mod_main.c:829: warning: undefined reference to 'e_util_menu_item_theme_icon_set'
+e_mod_main.c:830: warning: undefined reference to 'e_menu_item_callback_set'
+e_mod_main.c:832: warning: undefined reference to 'e_gadcon_client_util_menu_items_append'
+e_mod_main.c:867: warning: undefined reference to 'e_menu_item_new_relative'
+e_mod_main.c:868: warning: undefined reference to 'e_menu_item_label_set'
+e_mod_main.c:870: warning: undefined reference to 'e_menu_item_icon_edje_set'
+e_mod_main.c:873: warning: undefined reference to 'e_menu_post_deactivate_callback_set'
+e_mod_main.c:875: warning: undefined reference to 'e_gadcon_canvas_zone_geometry_get'
+e_mod_main.c:877: warning: undefined reference to 'e_manager_current_get'
+e_mod_main.c:877: warning: undefined reference to 'e_util_zone_current_get'
+e_mod_main.c:877: warning: undefined reference to 'e_menu_activate_mouse'
+e_mod_main.c:847: warning: undefined reference to 'e_menu_item_new_relative'
+e_mod_main.c:848: warning: undefined reference to 'e_menu_item_label_set'
+e_mod_main.c:849: warning: undefined reference to 'e_menu_item_callback_set'
+e_mod_main.c:851: warning: undefined reference to 'e_menu_item_icon_edje_set'
+e_mod_main.c:823: warning: undefined reference to 'e_util_menu_item_theme_icon_set'
+e_mod_main.c:856: warning: undefined reference to 'e_menu_item_new_relative'
+e_mod_main.c:858: warning: undefined reference to 'e_menu_item_callback_set'
+e_mod_main.c:850: warning: undefined reference to 'e_util_menu_item_theme_icon_set'
+e_mod_main.c:869: warning: undefined reference to 'e_util_menu_item_theme_icon_set'
+e_mod_main.c:311: warning: undefined reference to 'e_object_del'
+e_mod_main.c:399: warning: undefined reference to 'e_module_dialog_show'
+e_mod_main.c:434: warning: undefined reference to 'e_config_save_queue'
+e_mod_main.c:424: warning: undefined reference to 'e_module_dialog_show'
+e_mod_main.c:82: warning: undefined reference to 'e_module_dir_get'
+e_mod_main.c:95: warning: undefined reference to 'e_gadcon_client_new'
+e_mod_main.c:122: warning: undefined reference to 'e_config_save_queue'
+e_mod_main.c:86: warning: undefined reference to 'e_theme_edje_object_set'
+e_mod_main.c:1000: warning: undefined reference to 'e_module_dir_get'
+e_mod_main.c:1004: warning: undefined reference to 'e_config_descriptor_new'
+e_mod_main.c:1030: warning: undefined reference to 'e_config_descriptor_new'
+e_mod_main.c:1044: warning: undefined reference to 'e_config_domain_load'
+e_mod_main.c:1070: warning: undefined reference to 'e_module_dialog_show'
+e_mod_main.c:1116: warning: undefined reference to 'e_theme_category_find'
+e_mod_main.c:1120: warning: undefined reference to 'e_module_dir_get'
+e_mod_main.c:1126: warning: undefined reference to 'e_gadcon_provider_register'
+e_mod_main.c:1134: warning: undefined reference to 'e_gadcon_provider_unregister'
+e_mod_main.c:1159: warning: undefined reference to 'e_menu_post_deactivate_callback_set'
+e_mod_main.c:1164: warning: undefined reference to 'e_config_descriptor_free'
+e_mod_main.c:1165: warning: undefined reference to 'e_config_descriptor_free'
+e_mod_main.c:1173: warning: undefined reference to 'e_config_domain_save'
+e_mod_main.c:704: warning: undefined reference to 'e_config_save_queue'
+e_mod_main.c:693: warning: undefined reference to 'e_config_save_queue'
+e_mod_main.c:179: warning: undefined reference to 'e_gadcon_client_min_size_set'
+.libs/e_mod_main.o:e_mod_main.c:function _gadcon_class: warning: undefined reference to 'e_gadcon_site_is_not_toolbar'
+e_mod_config.c:328: warning: undefined reference to 'e_widget_ilist_selected_get'
+e_mod_config.c:312: warning: undefined reference to 'e_widget_ilist_selected_get'
+e_mod_config.c:51: warning: undefined reference to 'e_manager_current_get'
+e_mod_config.c:51: warning: undefined reference to 'e_container_current_get'
+e_mod_config.c:51: warning: undefined reference to 'e_config_dialog_new'
+e_mod_config.c:63: warning: undefined reference to 'e_widget_ilist_selected_get'
+e_mod_config.c:64: warning: undefined reference to 'e_widget_ilist_clear'
+e_mod_config.c:97: warning: undefined reference to 'e_widget_ilist_append'
+e_mod_config.c:78: warning: undefined reference to 'e_icon_add'
+e_mod_config.c:80: warning: undefined reference to 'e_icon_file_edje_set'
+e_mod_config.c:100: warning: undefined reference to 'e_widget_size_min_get'
+e_mod_config.c:104: warning: undefined reference to 'e_widget_size_min_set'
+e_mod_config.c:106: warning: undefined reference to 'e_widget_ilist_go'
+e_mod_config.c:107: warning: undefined reference to 'e_widget_ilist_selected_set'
+e_mod_config.c:102: warning: undefined reference to 'e_widget_size_min_set'
+e_mod_config.c:79: warning: undefined reference to 'e_util_edje_icon_set'
+e_mod_config.c:152: warning: undefined reference to 'e_widget_frametable_add'
+e_mod_config.c:154: warning: undefined reference to 'e_widget_check_add'
+e_mod_config.c:155: warning: undefined reference to 'e_widget_frametable_object_append'
+e_mod_config.c:157: warning: undefined reference to 'e_widget_ilist_add'
+e_mod_config.c:158: warning: undefined reference to 'e_widget_ilist_selector_set'
+e_mod_config.c:161: warning: undefined reference to 'e_widget_frametable_object_append'
+e_mod_config.c:163: warning: undefined reference to 'e_widget_button_add'
+e_mod_config.c:164: warning: undefined reference to 'e_widget_frametable_object_append'
+e_mod_config.c:165: warning: undefined reference to 'e_widget_button_add'
+e_mod_config.c:166: warning: undefined reference to 'e_widget_frametable_object_append'
+e_mod_config.c:167: warning: undefined reference to 'e_widget_button_add'
+e_mod_config.c:169: warning: undefined reference to 'e_widget_button_add'
+e_mod_config.c:172: warning: undefined reference to 'e_widget_table_object_append'
+e_mod_config.c:218: warning: undefined reference to 'e_widget_table_add'
+e_mod_config.c:223: warning: undefined reference to 'e_widget_frametable_add'
+e_mod_config.c:235: warning: undefined reference to 'e_widget_check_add'
+e_mod_config.c:238: warning: undefined reference to 'e_widget_table_object_append'
+e_mod_config.c:241: warning: undefined reference to 'e_widget_frametable_add'
+e_mod_config.c:243: warning: undefined reference to 'e_widget_check_add'
+e_mod_config.c:246: warning: undefined reference to 'e_widget_check_add'
+e_mod_config.c:249: warning: undefined reference to 'e_widget_entry_add'
+e_mod_config.c:250: warning: undefined reference to 'e_widget_size_min_set'
+e_mod_config.c:256: warning: undefined reference to 'e_widget_table_object_append'
+e_mod_config.c:195: warning: undefined reference to 'e_widget_table_add'
+e_mod_config.c:343: warning: undefined reference to 'e_widget_ilist_selected_get'
+e_mod_config_alarm.c:520: warning: undefined reference to 'e_widget_entry_text_set'
+e_mod_config_alarm.c:504: warning: undefined reference to 'e_widget_entry_text_set'
+e_mod_config_alarm.c:314: warning: undefined reference to 'e_module_dialog_show'
+e_mod_config_alarm.c:185: warning: undefined reference to 'e_widget_frametable_add'
+e_mod_config_alarm.c:189: warning: undefined reference to 'e_widget_label_add'
+e_mod_config_alarm.c:191: warning: undefined reference to 'e_widget_entry_add'
+e_mod_config_alarm.c:192: warning: undefined reference to 'e_widget_size_min_set'
+e_mod_config_alarm.c:194: warning: undefined reference to 'e_widget_label_add'
+e_mod_config_alarm.c:196: warning: undefined reference to 'e_widget_entry_add'
+e_mod_config_alarm.c:201: warning: undefined reference to 'e_widget_table_object_append'
+e_mod_config_alarm.c:206: warning: undefined reference to 'e_widget_slider_add'
+e_mod_config_alarm.c:209: warning: undefined reference to 'e_widget_slider_add'
+e_mod_config_alarm.c:213: warning: undefined reference to 'e_widget_radio_group_new'
+e_mod_config_alarm.c:217: warning: undefined reference to 'e_widget_radio_add'
+e_mod_config_alarm.c:238: warning: undefined reference to 'e_widget_radio_add'
+e_mod_config_alarm.c:240: warning: undefined reference to 'e_widget_label_add'
+e_mod_config_alarm.c:242: warning: undefined reference to 'e_widget_entry_add'
+e_mod_config_alarm.c:375: warning: undefined reference to 'e_widget_table_add'
+e_mod_config_alarm.c:381: warning: undefined reference to 'e_widget_label_add'
+e_mod_config_alarm.c:384: warning: undefined reference to 'e_widget_radio_group_new'
+e_mod_config_alarm.c:388: warning: undefined reference to 'e_widget_radio_add'
+e_mod_config_alarm.c:397: warning: undefined reference to 'e_widget_radio_add'
+e_mod_config_alarm.c:404: warning: undefined reference to 'e_widget_radio_group_new'
+e_mod_config_alarm.c:424: warning: undefined reference to 'e_widget_radio_group_new'
+e_mod_config_alarm.c:347: warning: undefined reference to 'e_widget_table_add'
+e_mod_config_alarm.c:67: warning: undefined reference to 'e_manager_current_get'
+e_mod_config_alarm.c:67: warning: undefined reference to 'e_container_current_get'
+e_mod_config_alarm.c:67: warning: undefined reference to 'e_config_dialog_new'
+libtool: link: ( cd ".libs" && rm -f "module.la" && ln -s "../module.la" "module.la" )
+make[2]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/src'
+Making all in po
+make[2]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/po'
+make alarm.pot-update
+make[3]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/po'
+sed -e '/^#/d' remove-potcdate.sin > t-remove-potcdate.sed
+mv t-remove-potcdate.sed remove-potcdate.sed
+/usr/bin/xgettext --default-domain=alarm --directory=.. \
+  --add-comments=TRANSLATORS: --keyword=N_ --keyword=D_ --from-code=UTF-8 --foreign-user \
+  --files-from=./POTFILES.in \
+  --copyright-holder='Enlightenment development team' \
+  --msgid-bugs-address='enlightenment-devel@lists.sourceforge.net'
+test ! -f alarm.po || { \
+  if test -f ./alarm.pot; then \
+    sed -f remove-potcdate.sed < ./alarm.pot > alarm.1po && \
+    sed -f remove-potcdate.sed < alarm.po > alarm.2po && \
+    if cmp alarm.1po alarm.2po >/dev/null 2>&1; then \
+      rm -f alarm.1po alarm.2po alarm.po; \
+    else \
+      rm -f alarm.1po alarm.2po ./alarm.pot && \
+      mv alarm.po ./alarm.pot; \
+    fi; \
+  else \
+    mv alarm.po ./alarm.pot; \
+  fi; \
+}
+make[3]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/po'
+test -z "ar.gmo ca.gmo cs.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo gl.gmo he.gmo hr.gmo hu.gmo it.gmo ja.gmo ko.gmo lt.gmo nb.gmo nl.gmo pl.gmo pt.gmo pt_BR.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo" || make ar.gmo ca.gmo cs.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo gl.gmo he.gmo hr.gmo hu.gmo it.gmo ja.gmo ko.gmo lt.gmo nb.gmo nl.gmo pl.gmo pt.gmo pt_BR.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo
+make[3]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/po'
+/usr/bin/msgmerge --update ar.po alarm.pot
+................ done.
+rm -f ar.gmo && /usr/bin/msgfmt -c --statistics -o ar.gmo ar.po
+67 translated messages.
+/usr/bin/msgmerge --update ca.po alarm.pot
+................ done.
+rm -f ca.gmo && /usr/bin/msgfmt -c --statistics -o ca.gmo ca.po
+67 translated messages.
+/usr/bin/msgmerge --update cs.po alarm.pot
+................ done.
+rm -f cs.gmo && /usr/bin/msgfmt -c --statistics -o cs.gmo cs.po
+cs.po:6: warning: header field 'Language' still has the initial default value
+67 translated messages.
+/usr/bin/msgmerge --update de.po alarm.pot
+.................. done.
+de.po:193: warning: internationalized messages should not contain the '\r' escape sequence
+rm -f de.gmo && /usr/bin/msgfmt -c --statistics -o de.gmo de.po
+67 translated messages.
+/usr/bin/msgmerge --update el.po alarm.pot
+............... done.
+rm -f el.gmo && /usr/bin/msgfmt -c --statistics -o el.gmo el.po
+57 translated messages, 10 untranslated messages.
+/usr/bin/msgmerge --update eo.po alarm.pot
+................. done.
+rm -f eo.gmo && /usr/bin/msgfmt -c --statistics -o eo.gmo eo.po
+67 translated messages.
+/usr/bin/msgmerge --update es.po alarm.pot
+................. done.
+rm -f es.gmo && /usr/bin/msgfmt -c --statistics -o es.gmo es.po
+es.po:7: warning: header field 'Language' still has the initial default value
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update et.po alarm.pot
+................. done.
+rm -f et.gmo && /usr/bin/msgfmt -c --statistics -o et.gmo et.po
+8 translated messages, 59 untranslated messages.
+/usr/bin/msgmerge --update fi.po alarm.pot
+................. done.
+rm -f fi.gmo && /usr/bin/msgfmt -c --statistics -o fi.gmo fi.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update fr.po alarm.pot
+............... done.
+rm -f fr.gmo && /usr/bin/msgfmt -c --statistics -o fr.gmo fr.po
+fr.po:7: warning: header field 'Language' still has the initial default value
+67 translated messages.
+/usr/bin/msgmerge --update gl.po alarm.pot
+................. done.
+rm -f gl.gmo && /usr/bin/msgfmt -c --statistics -o gl.gmo gl.po
+67 translated messages.
+/usr/bin/msgmerge --update he.po alarm.pot
+.............. done.
+rm -f he.gmo && /usr/bin/msgfmt -c --statistics -o he.gmo he.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update hr.po alarm.pot
+................ done.
+rm -f hr.gmo && /usr/bin/msgfmt -c --statistics -o hr.gmo hr.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update hu.po alarm.pot
+............... done.
+rm -f hu.gmo && /usr/bin/msgfmt -c --statistics -o hu.gmo hu.po
+67 translated messages.
+/usr/bin/msgmerge --update it.po alarm.pot
+................ done.
+rm -f it.gmo && /usr/bin/msgfmt -c --statistics -o it.gmo it.po
+it.po:6: warning: header field 'Language' still has the initial default value
+67 translated messages.
+/usr/bin/msgmerge --update ja.po alarm.pot
+.............. done.
+rm -f ja.gmo && /usr/bin/msgfmt -c --statistics -o ja.gmo ja.po
+ja.po:6: warning: header field 'Language' still has the initial default value
+65 translated messages, 2 untranslated messages.
+/usr/bin/msgmerge --update ko.po alarm.pot
+................ done.
+rm -f ko.gmo && /usr/bin/msgfmt -c --statistics -o ko.gmo ko.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update lt.po alarm.pot
+................ done.
+rm -f lt.gmo && /usr/bin/msgfmt -c --statistics -o lt.gmo lt.po
+67 translated messages.
+/usr/bin/msgmerge --update nb.po alarm.pot
+................... done.
+rm -f nb.gmo && /usr/bin/msgfmt -c --statistics -o nb.gmo nb.po
+27 translated messages, 40 untranslated messages.
+/usr/bin/msgmerge --update nl.po alarm.pot
+.............. done.
+rm -f nl.gmo && /usr/bin/msgfmt -c --statistics -o nl.gmo nl.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update pl.po alarm.pot
+................... done.
+rm -f pl.gmo && /usr/bin/msgfmt -c --statistics -o pl.gmo pl.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update pt.po alarm.pot
+................ done.
+rm -f pt.gmo && /usr/bin/msgfmt -c --statistics -o pt.gmo pt.po
+pt.po:7: warning: header field 'Language' still has the initial default value
+67 translated messages.
+/usr/bin/msgmerge --update pt_BR.po alarm.pot
+................. done.
+rm -f pt_BR.gmo && /usr/bin/msgfmt -c --statistics -o pt_BR.gmo pt_BR.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update ru.po alarm.pot
+................ done.
+rm -f ru.gmo && /usr/bin/msgfmt -c --statistics -o ru.gmo ru.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update sk.po alarm.pot
+............... done.
+rm -f sk.gmo && /usr/bin/msgfmt -c --statistics -o sk.gmo sk.po
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update sl.po alarm.pot
+............... done.
+rm -f sl.gmo && /usr/bin/msgfmt -c --statistics -o sl.gmo sl.po
+67 translated messages.
+/usr/bin/msgmerge --update sr.po alarm.pot
+.................. done.
+rm -f sr.gmo && /usr/bin/msgfmt -c --statistics -o sr.gmo sr.po
+67 translated messages.
+/usr/bin/msgmerge --update sv.po alarm.pot
+............. done.
+rm -f sv.gmo && /usr/bin/msgfmt -c --statistics -o sv.gmo sv.po
+sv.po:7: warning: header field 'Language' still has the initial default value
+66 translated messages, 1 untranslated message.
+/usr/bin/msgmerge --update tr.po alarm.pot
+................ done.
+rm -f tr.gmo && /usr/bin/msgfmt -c --statistics -o tr.gmo tr.po
+67 translated messages.
+/usr/bin/msgmerge --update uk.po alarm.pot
+................... done.
+rm -f uk.gmo && /usr/bin/msgfmt -c --statistics -o uk.gmo uk.po
+67 translated messages.
+/usr/bin/msgmerge --update vi.po alarm.pot
+................ done.
+rm -f vi.gmo && /usr/bin/msgfmt -c --statistics -o vi.gmo vi.po
+54 translated messages, 13 untranslated messages.
+/usr/bin/msgmerge --update zh_CN.po alarm.pot
+............... done.
+rm -f zh_CN.gmo && /usr/bin/msgfmt -c --statistics -o zh_CN.gmo zh_CN.po
+zh_CN.po:7: warning: header field 'Language' still has the initial default value
+67 translated messages.
+make[3]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/po'
+touch stamp-po
+make[2]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm/po'
+make[2]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm'
+/usr/bin/edje_cc -v -id ./images e-module-alarm.edc e-module-alarm.edj
+edje_cc: Wrote       163 bytes (   0Kb) for "edje_file" header
+edje_cc: header: 0.00020
+edje_cc: groups: 0.00037
+edje_cc: scripts: 0.00000
+edje_cc: lua scripts: 0.00000
+edje_cc: source: 0.00009
+edje_cc: fontmap: 0.00005
+edje_cc: Wrote     16136 bytes (  16Kb) for "edje/images/0" image entry "module_icon.png" compress: [raw: 66.4%] [real: -13.4%]
+edje_cc: images: 0.00346
+edje_cc: fonts: 0.00000
+edje_cc: sounds: 0.00000
+edje_cc: vibrations: 0.00000
+edje_cc: license: 0.00000
+edje_cc: THREADS: 0.00000
+Summary:
+  Wrote 1 collections
+  Wrote 1 images
+  Wrote 0 sounds
+  Wrote 0 fonts
+/usr/bin/edje_cc -v -id ./images alarm.edc alarm.edj
+edje_cc: Wrote       214 bytes (   0Kb) for "edje_file" header
+edje_cc: header: 0.00032
+edje_cc: groups: 0.00414
+edje_cc: scripts: 0.00176
+edje_cc: lua scripts: 0.00000
+edje_cc: source: 0.00127
+edje_cc: fontmap: 0.00012
+edje_cc: Wrote     10703 bytes (  10Kb) for "edje/images/0" image entry "alarm_enabled.png" compress: [raw: 77.7%] [real: 4.2%]
+edje_cc: Wrote      9457 bytes (   9Kb) for "edje/images/1" image entry "alarm_disabled.png" compress: [raw: 80.3%] [real: -45.7%]
+edje_cc: Wrote     27035 bytes (  26Kb) for "edje/images/2" image entry "alarm_snooze.png" compress: [raw: 80.6%] [real: -59.4%]
+edje_cc: images: 0.03882
+edje_cc: fonts: 0.00000
+edje_cc: sounds: 0.00000
+edje_cc: vibrations: 0.00000
+edje_cc: license: 0.00000
+edje_cc: THREADS: 0.00063
+Summary:
+  Wrote 4 collections
+  Wrote 3 images
+  Wrote 0 sounds
+  Wrote 0 fonts
+make[2]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm'
+make[1]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/alarm'
++ popd
+~/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506
++ for i in '`find * -type d|awk -F'\''/'\'' '\''{print $1}'\''|sort|uniq`'
++ pushd cpu
+~/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu ~/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506
++ autoreconf -fi
+Copying file ABOUT-NLS
+Copying file config.rpath
+Copying file m4/codeset.m4
+Copying file m4/gettext.m4
+Copying file m4/glibc21.m4
+Copying file m4/iconv.m4
+Copying file m4/intdiv0.m4
+Copying file m4/intmax.m4
+Copying file m4/inttypes-pri.m4
+Copying file m4/inttypes.m4
+Copying file m4/inttypes_h.m4
+Copying file m4/isc-posix.m4
+Copying file m4/lcmessage.m4
+Copying file m4/lib-ld.m4
+Copying file m4/lib-link.m4
+Copying file m4/lib-prefix.m4
+Copying file m4/longdouble.m4
+Copying file m4/longlong.m4
+Copying file m4/nls.m4
+Copying file m4/po.m4
+Copying file m4/printf-posix.m4
+Copying file m4/progtest.m4
+Copying file m4/signed.m4
+Copying file m4/size_max.m4
+Copying file m4/stdint_h.m4
+Copying file m4/uintmax_t.m4
+Copying file m4/ulonglong.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/xsize.m4
+Copying file mkinstalldirs
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+Copying file po/remove-potcdate.sin
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+configure.ac:11: installing './compile'
+configure.ac:9: installing './config.guess'
+configure.ac:9: installing './config.sub'
+configure.ac:13: installing './install-sh'
+configure.ac:13: installing './missing'
+Makefile.am:27: warning: '%'-style pattern rules are a GNU make extension
+src/Makefile.am:3: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/Makefile.am: installing './depcomp'
++ CFLAGS='-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC'
++ export CFLAGS
++ CXXFLAGS='-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC'
++ export CXXFLAGS
++ FFLAGS='-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC'
++ export FFLAGS
++ LDFLAGS=' -Wl,--no-undefined '
++ export LDFLAGS
++ CROSSCOMPILE='--target=x86_64-mandriva-linux-gnu --host=x86_64-mandriva-linux-gnu --build=x86_64-mandriva-linux-gnu'
++ export CROSSCOMPILE
+++ find . -name config.guess -o -name config.sub
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.sub
++ '[' -f /usr/share/libtool/config/config.sub ']'
++ /bin/rm -f ./config.sub
+++ basename ./config.sub
++ /bin/cp -fv /usr/share/libtool/config//config.sub ./config.sub
+'/usr/share/libtool/config//config.sub' -> './config.sub'
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.guess
++ '[' -f /usr/share/libtool/config/config.guess ']'
++ /bin/rm -f ./config.guess
+++ basename ./config.guess
++ /bin/cp -fv /usr/share/libtool/config//config.guess ./config.guess
+'/usr/share/libtool/config//config.guess' -> './config.guess'
++ CONFIGURE_TOP=.
++ cd .
++ '[' '!' -f configure.in -a '!' -f configure.ac ']'
++ libtoolize --copy --force
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
++ '[' -f ./configure.in -o -f ./configure.ac ']'
++ CONFIGURE_XPATH='--x-includes=/usr/include --x-libraries=/usr/lib64'
++ ./configure --target=x86_64-mandriva-linux-gnu --host=x86_64-mandriva-linux-gnu --build=x86_64-mandriva-linux-gnu --disable-silent-rules --disable-dependency-tracking --disable-rpath --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --x-includes=/usr/include --x-libraries=/usr/lib64 --disable-static
+checking build system type... x86_64-mandriva-linux-gnu
+checking host system type... x86_64-mandriva-linux-gnu
+checking for x86_64-mandriva-linux-gnu-gcc... x86_64-mandriva-linux-gnu-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... yes
+checking for strerror in -lcposix... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of x86_64-mandriva-linux-gnu-gcc... none
+checking whether make supports nested variables... (cached) yes
+checking for x86_64-mandriva-linux-gnu-gcc... (cached) x86_64-mandriva-linux-gnu-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... (cached) yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... (cached) none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... x86_64-mandriva-linux-gnu-gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for an ANSI C-conforming const... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by x86_64-mandriva-linux-gnu-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-mandriva-linux-gnu file names to x86_64-mandriva-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-mandriva-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-mandriva-linux-gnu-objdump... x86_64-mandriva-linux-gnu-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-mandriva-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-mandriva-linux-gnu-ar... x86_64-mandriva-linux-gnu-ar
+checking for archiver @FILE support... @
+checking for x86_64-mandriva-linux-gnu-strip... x86_64-mandriva-linux-gnu-strip
+checking for x86_64-mandriva-linux-gnu-ranlib... x86_64-mandriva-linux-gnu-ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-mandriva-linux-gnu-gcc object... ok
+checking for sysroot... no
+checking for x86_64-mandriva-linux-gnu-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-mandriva-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-mandriva-linux-gnu-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-mandriva-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-mandriva-linux-gnu-gcc static flag -static works... no
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... yes
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-mandriva-linux-gnu-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for x86_64-mandriva-linux-gnu-pkg-config... /usr/bin/x86_64-mandriva-linux-gnu-pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for E... yes
+checking for EDJE... yes
+checking Which edje_cc to use... /usr/bin/edje_cc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating e_modules-cpu.spec
+config.status: creating module.desktop
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands
++ make
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu/missing aclocal-1.14 -I m4
+ cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu/missing automake-1.14 --gnu
+Makefile.am:27: warning: '%'-style pattern rules are a GNU make extension
+src/Makefile.am:3: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu/missing autoconf
+/bin/sh ./config.status --recheck
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --target=x86_64-mandriva-linux-gnu --host=x86_64-mandriva-linux-gnu --build=x86_64-mandriva-linux-gnu --disable-silent-rules --disable-dependency-tracking --disable-rpath --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --x-includes=/usr/include --x-libraries=/usr/lib64 --disable-static build_alias=x86_64-mandriva-linux-gnu host_alias=x86_64-mandriva-linux-gnu target_alias=x86_64-mandriva-linux-gnu CFLAGS=-O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC LDFLAGS= -Wl,--no-undefined  --no-create --no-recursion
+checking build system type... x86_64-mandriva-linux-gnu
+checking host system type... x86_64-mandriva-linux-gnu
+checking for x86_64-mandriva-linux-gnu-gcc... x86_64-mandriva-linux-gnu-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... yes
+checking for strerror in -lcposix... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of x86_64-mandriva-linux-gnu-gcc... none
+checking whether make supports nested variables... (cached) yes
+checking for x86_64-mandriva-linux-gnu-gcc... (cached) x86_64-mandriva-linux-gnu-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether x86_64-mandriva-linux-gnu-gcc accepts -g... (cached) yes
+checking for x86_64-mandriva-linux-gnu-gcc option to accept ISO C89... (cached) none needed
+checking whether x86_64-mandriva-linux-gnu-gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... x86_64-mandriva-linux-gnu-gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for an ANSI C-conforming const... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by x86_64-mandriva-linux-gnu-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-mandriva-linux-gnu file names to x86_64-mandriva-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-mandriva-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-mandriva-linux-gnu-objdump... x86_64-mandriva-linux-gnu-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-mandriva-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-mandriva-linux-gnu-ar... x86_64-mandriva-linux-gnu-ar
+checking for archiver @FILE support... @
+checking for x86_64-mandriva-linux-gnu-strip... x86_64-mandriva-linux-gnu-strip
+checking for x86_64-mandriva-linux-gnu-ranlib... x86_64-mandriva-linux-gnu-ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-mandriva-linux-gnu-gcc object... ok
+checking for sysroot... no
+checking for x86_64-mandriva-linux-gnu-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-mandriva-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-mandriva-linux-gnu-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-mandriva-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-mandriva-linux-gnu-gcc static flag -static works... no
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... yes
+checking if x86_64-mandriva-linux-gnu-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-mandriva-linux-gnu-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for x86_64-mandriva-linux-gnu-pkg-config... /usr/bin/x86_64-mandriva-linux-gnu-pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for E... yes
+checking for EDJE... yes
+checking Which edje_cc to use... /usr/bin/edje_cc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+ /bin/sh ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating e_modules-cpu.spec
+config.status: creating module.desktop
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu'
+Making all in src
+make[2]: Entering directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina     -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe  -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4  -fPIC -c -o e_mod_main.lo e_mod_main.c
+libtool: compile:  x86_64-mandriva-linux-gnu-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I.. -I/usr/include -DUSE_E_CONFIG_H -D_REENTRANT -pthread -I/usr/include/enlightenment -I/usr/include/efl-1 -I/usr/include/ecore-ipc-1 -I/usr/include/elementary-1 -I/usr/include/efl-1 -I/usr/include/ecore-sdl-1 -I/usr/include/SDL2 -I/usr/include/efl-1 -I/usr/include/ecore-x-1 -I/usr/include/efl-1 -I/usr/include/ethumb-client-1 -I/usr/include/efl-1 -I/usr/include/ethumb-1 -I/usr/include/efl-1 -I/usr/include/edje-1 -I/usr/include/efl-1 -I/usr/include/ecore-audio-1 -I/usr/include/efl-1 -I/usr/include/ephysics-1 -I/usr/include/bullet -I/usr/include/efl-1 -I/usr/include/embryo-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-evas-1 -I/usr/include/efl-1 -I/usr/include/ecore-imf-1 -I/usr/include/efl-1 -I/usr/include/ecore-input-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/efreet-1 -I/usr/include/efl-1 -I/usr/include/eldbus-1 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/efl-1 -I/usr/include/emotion-1 -I/usr/include/efl-1 -I/usr/include/eio-1 -I/usr/include/efl-1 -I/usr/include/evas-1 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libxml2 -I/usr/include/freetype2 -I/usr/include/luajit-2.0 -I/usr/include/efl-1 -I/usr/include/eeze-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/efl-1 -I/usr/include/ecore-file-1 -I/usr/include/efl-1 -I/usr/include/ecore-con-1 -I/usr/include/efl-1 -I/usr/include/eet-1 -I/usr/include/efl-1 -I/usr/include/ecore-1 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/efl-1 -I/usr/include/eo-1 -I/usr/include/efl-1 -I/usr/include/eina-1 -I/usr/include/eina-1/eina -O2 -Wa,--compress-debug-sections -gdwarf-4 -fvar-tracking-assignments -frecord-gcc-switches -Wstrict-aliasing=2 -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 -fPIC -c e_mod_main.c  -fPIC -DPIC -o .libs/e_mod_main.o
+e_mod_main.c: In function '_button_cb_mouse_down':
+e_mod_main.c:427:10: error: too few arguments to function 'e_zone_current_get'
+          e_zone_current_get(),
+          ^
+In file included from /usr/include/enlightenment/e_includes.h:8:0,
+                 from /usr/include/enlightenment/e.h:281,
+                 from e_mod_main.c:1:
+/usr/include/enlightenment/e_zone.h:141:16: note: declared here
+ EAPI E_Zone   *e_zone_current_get(E_Comp *c);
+                ^
+make[2]: *** [e_mod_main.lo] Error 1
+make[2]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/home/colin/Development/ELIGHT/e_modules/BUILD/e_modules-0.0.1.20150506/cpu'
+make: *** [all] Error 2
+error: Bad exit status from /var/tmp/rpm-tmp.41882 (%build)
+
+
+RPM build errors:
+    Bad exit status from /var/tmp/rpm-tmp.41882 (%build)

@@ -1,0 +1,323 @@
+# Vietnamese translation for enlightenment
+# This file is distributed under the same license as the enlightenment package.
+# ltgbau <ltgbau@yahoo.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2015-05-06 11:34+0100\n"
+"PO-Revision-Date: 2009-03-07 05:48+0000\n"
+"Last-Translator: ltgbau <ltgbau@yahoo.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-11-10 07:13+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/e_mod_config.c:52
+msgid "Alarm Configuration"
+msgstr "Cấu hình báo thức"
+
+#: src/e_mod_config.c:152 src/e_mod_main.c:185
+msgid "Alarm"
+msgstr "Báo thức"
+
+#: src/e_mod_config.c:154 src/e_mod_config_alarm.c:187
+msgid "Active"
+msgstr "Kích hoạt"
+
+#: src/e_mod_config.c:163
+msgid "Add"
+msgstr "Thêm"
+
+#: src/e_mod_config.c:165
+msgid "Delete"
+msgstr "Xóa"
+
+#: src/e_mod_config.c:167
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: src/e_mod_config.c:169
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: src/e_mod_config.c:223
+msgid "Alarm Options"
+msgstr "Tùy chọn báo thức"
+
+#: src/e_mod_config.c:235
+msgid "Show next alarm"
+msgstr "Hiện báo thức tiếp theo"
+
+#: src/e_mod_config.c:241
+msgid "Alarms Defaults"
+msgstr "Báo thức mặc định"
+
+#: src/e_mod_config.c:243 src/e_mod_config_alarm.c:401
+msgid "Open popup"
+msgstr "Bung cửa sổ"
+
+#: src/e_mod_config.c:246
+msgid "Run program"
+msgstr "Chạy chương trình"
+
+#: src/e_mod_config.c:253
+msgid "Auto-Remove alarms"
+msgstr "Tự động xóa báo thức"
+
+#: src/e_mod_config_alarm.c:68
+msgid "Alarm Configuration : Setup an alarm"
+msgstr "Cấu hình báo thức: Thiết lập báo thức"
+
+#: src/e_mod_config_alarm.c:185
+msgid "Informations"
+msgstr "Thông tin"
+
+#: src/e_mod_config_alarm.c:189
+msgid "Name"
+msgstr "Tên"
+
+#: src/e_mod_config_alarm.c:194
+msgid "Description"
+msgstr "Mô tả"
+
+#: src/e_mod_config_alarm.c:204
+msgid "Schedule"
+msgstr "Lịch"
+
+#: src/e_mod_config_alarm.c:206
+#, c-format
+msgid "%1.0f hour"
+msgstr "%1.0f giờ"
+
+#: src/e_mod_config_alarm.c:209
+#, c-format
+msgid "%1.0f minute"
+msgstr "%1.0f phút"
+
+#: src/e_mod_config_alarm.c:215
+msgid "Days of the week"
+msgstr "Ngày trong tuần"
+
+#: src/e_mod_config_alarm.c:219
+msgid "Monday"
+msgstr "Thứ 2"
+
+#: src/e_mod_config_alarm.c:221
+msgid "Tuesday"
+msgstr "Thứ 3"
+
+#: src/e_mod_config_alarm.c:223
+msgid "Wenesday"
+msgstr "Thứ 4"
+
+#: src/e_mod_config_alarm.c:225
+msgid "Thursday"
+msgstr "Thứ 5"
+
+#: src/e_mod_config_alarm.c:227
+msgid "Friday"
+msgstr "Thứ 6"
+
+#: src/e_mod_config_alarm.c:229
+msgid "Saturday"
+msgstr "Thứ 7"
+
+#: src/e_mod_config_alarm.c:231
+msgid "Sunday"
+msgstr "Chủ Nhật"
+
+#: src/e_mod_config_alarm.c:236
+msgid "One day"
+msgstr "Một ngày"
+
+#: src/e_mod_config_alarm.c:240
+msgid "Date (YYYY/MM/DD)"
+msgstr "Ngày (YYYY/MM/DD)"
+
+#: src/e_mod_config_alarm.c:245
+msgid "Today"
+msgstr "Hôm nay"
+
+#: src/e_mod_config_alarm.c:247
+msgid "Tomorrow"
+msgstr "Ngày mai"
+
+#: src/e_mod_config_alarm.c:285
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>There is an error "
+"in the informations / schedule of your alarm"
+msgstr ""
+
+#: src/e_mod_config_alarm.c:290
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>You have to enter "
+"a name for the alarm"
+msgstr ""
+
+#: src/e_mod_config_alarm.c:295
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>You have to "
+"select at least one day in the week"
+msgstr ""
+
+#: src/e_mod_config_alarm.c:300
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>The date you "
+"entered for the alarm has incorrect syntax<br><br>You have to respect this "
+"format :<br>   YYYY/MM/DD<br>YYYY is the year on 4 numbers<br>MM is the "
+"month on 2 numbers<br>DD is the day on 2 numbers<br>"
+msgstr ""
+
+#: src/e_mod_config_alarm.c:310
+msgid ""
+"<hilight>Error, The alarm was not added !</hilight><br><br>The date you "
+"entered is before now"
+msgstr ""
+
+#: src/e_mod_config_alarm.c:314 src/e_mod_main.c:424
+msgid "Alarm Module Error"
+msgstr "Lỗi"
+
+#: src/e_mod_config_alarm.c:351 src/e_mod_config_alarm.c:439
+msgid "Test this alarm"
+msgstr "Thử báo thức"
+
+#: src/e_mod_config_alarm.c:379
+msgid "Ring Options"
+msgstr "Chọn chuông"
+
+#: src/e_mod_config_alarm.c:381
+msgid "Remove alarm"
+msgstr "Xóa báo thức"
+
+#: src/e_mod_config_alarm.c:388 src/e_mod_config_alarm.c:408
+msgid "No [default]"
+msgstr "Không (mặc định)"
+
+#: src/e_mod_config_alarm.c:390 src/e_mod_config_alarm.c:410
+msgid "Yes"
+msgstr "Có"
+
+#: src/e_mod_config_alarm.c:395 src/e_mod_config_alarm.c:415
+#: src/e_mod_config_alarm.c:426
+msgid "No"
+msgstr "Không"
+
+#: src/e_mod_config_alarm.c:397 src/e_mod_config_alarm.c:417
+msgid "Yes [default]"
+msgstr "Có (mặc định)"
+
+#: src/e_mod_config_alarm.c:421
+msgid "Run a program"
+msgstr "Chạy chương trình"
+
+#: src/e_mod_config_alarm.c:428
+msgid "Run default one"
+msgstr ""
+
+#: src/e_mod_config_alarm.c:430
+msgid "Run this program"
+msgstr "Chạy chương trình này"
+
+#: src/e_mod_config_alarm.c:475
+msgid ""
+"<hilight>Alarm test SUCCEED !</hilight><br><br>But DONT FORGET to ACTIVATE "
+"the alarms<br>via the 'Active' check button on the<br>main Alarm "
+"configuration panel."
+msgstr ""
+
+#: src/e_mod_config_alarm.c:481
+msgid "<hilight>Alarm test SUCCEED !</hilight>"
+msgstr "<hilight>Thử THÀNH CÔNG!</hilight>"
+
+#: src/e_mod_config_alarm.c:486
+msgid "<hilight>Alarm test FAILED !</hilight>"
+msgstr "Thử THẤT BẠI"
+
+#: src/e_mod_config_alarm.c:488
+msgid "Alarm Module Test Report"
+msgstr "Kết quả thử báo thức"
+
+#: src/e_mod_main.c:396
+#, c-format
+msgid "<hilight>Alarm : %s</hilight><br><br>%s"
+msgstr "<hilight>Báo thức : %s</hilight><br><br>%s"
+
+#: src/e_mod_main.c:399
+msgid "Alarm Module Popup"
+msgstr ""
+
+#: src/e_mod_main.c:422
+msgid ""
+"<hilight>Failed !</hilight><br><br>Alarm couln't launch the program you "
+"specified"
+msgstr ""
+"<hilight>Thất bại !</hilight><br><br>Không thể chạy chương trình bạn yêu cầu"
+
+#: src/e_mod_main.c:656 src/e_mod_main.c:846
+#, c-format
+msgid "Snooze %s"
+msgstr "Hoãn %s"
+
+#: src/e_mod_main.c:660
+#, c-format
+msgid "%1.0f hours"
+msgstr "%1.0f giờ"
+
+#: src/e_mod_main.c:663
+#, c-format
+msgid "%1.0f minutes"
+msgstr "%1.0f phút"
+
+#: src/e_mod_main.c:670
+msgid "Ok"
+msgstr "OK"
+
+#: src/e_mod_main.c:671
+msgid "Close"
+msgstr "Đóng"
+
+#: src/e_mod_main.c:821
+msgid "Add an alarm"
+msgstr "Thêm báo thức"
+
+#: src/e_mod_main.c:828
+msgid "Settings"
+msgstr ""
+
+#: src/e_mod_main.c:854
+#, c-format
+msgid "Snooze %.14s of %.2d:%.2d"
+msgstr "Hoãn %.14s of %.2d:%.2d"
+
+#: src/e_mod_main.c:868
+msgid "Snooze (No alarm to delay)"
+msgstr ""
+
+#: src/e_mod_main.c:1050
+#, c-format
+msgid ""
+"<hilight>Alarm module : Configuration Upgraded</hilight><br><br>Your "
+"configuration of alarm module<br>has been upgraded<br>Your settings and "
+"alarms were removed<br>Sorry for the inconvenience<br><br>(%d -> %d)"
+msgstr ""
+
+#: src/e_mod_main.c:1056 src/e_mod_main.c:1070
+msgid "Alarm Module version "
+msgstr ""
+
+#: src/e_mod_main.c:1064
+#, c-format
+msgid ""
+"<hilight>Alarm module : Configuration Downgraded</hilight><br><br>Your "
+"configuration of Alarm module<br>has been downgraded<br>Your settings and "
+"alarms were removed<br>Sorry for the inconvenience<br><br>(%d ->%d)"
+msgstr ""
+
+#~ msgid "Configuration"
+#~ msgstr "Cấu hình"
