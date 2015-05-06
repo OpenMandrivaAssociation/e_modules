@@ -6,6 +6,9 @@ cd e_modules-`echo "$VERSION.$GITDATE"`
 git clone http://git.enlightenment.org/enlightenment/modules/alarm.git/
 git clone http://git.enlightenment.org/enlightenment/modules/comp-scale.git/
 git clone http://git.enlightenment.org/enlightenment/modules/cpu.git/
+cd ./cpu
+git checkout 4f979720d38d75020fb32f295c2121439190f474
+cd ../
 git clone http://git.enlightenment.org/enlightenment/modules/desksanity.git/
 git clone http://git.enlightenment.org/enlightenment/modules/diskio.git/
 git clone http://git.enlightenment.org/enlightenment/modules/edgar.git/
