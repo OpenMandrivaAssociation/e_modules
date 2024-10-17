@@ -7,7 +7,7 @@ Version:	0.0.1
 Release:	2.%{gitdate}.3
 License:	BSD
 Group:		Graphical desktop/Enlightenment
-Url:		http://enlightenment.org/
+Url:		https://enlightenment.org/
 Source0:	%{name}-%{version}.%{gitdate}.tar.xz
 BuildRequires:	edje
 BuildRequires:	embryo
